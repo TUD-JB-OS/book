@@ -13,10 +13,11 @@ project:
 extends:
   - authors.yml
   # - export.yml
-  # - toc.yml
+  - toc.yml
 
 site:
   template: book-theme
-  # options:
+  options:
+    style: custom.css
   #   favicon: favicon.ico
   #   logo: site_logo.png

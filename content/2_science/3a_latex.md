@@ -3,7 +3,7 @@ authors:
     - id: FreekPols
     - id: LuukFroling
 
-updated: 2025-11-30
+updated: November 30, 2025
 ---
 # LaTeX
 

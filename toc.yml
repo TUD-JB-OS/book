@@ -3,3 +3,24 @@ project:
   id: aaa93d8b-b87b-406a-9a35-bce45f124075
 
   toc: 
+    - file: index.md
+
+    - title: Introduction 
+      children:
+      - file: content/1_general/1_intro.md
+      - file: content/1_general/2_credits.md
+      - file: content/1_general/3_somecontent.md
+
+    - title: Scientific publishing
+      children: 
+      - file: content/2_science/1_intro
+      - file: content/2_science/2_workflow
+      - file: content/2_science/3_export
+        children:
+        - file: content/2_science/3a_latex.md
+        - file: content/2_science/3b_typst.md
+
+    - title: Educational publishing
+      children: 
+      - file: content/3_education/1_intro.md
+      - file: content/3_education/2_workflow.md

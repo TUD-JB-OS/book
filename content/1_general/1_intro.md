@@ -2,7 +2,7 @@
 authors:
     - id: FreekPols
 
-updated: 2025-11-30
+updated: November 30, 2025
 ---
 
 # Introduction
