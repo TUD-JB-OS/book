@@ -1,0 +1,21 @@
+version: 1
+project:
+  id: aaa93d8b-b87b-406a-9a35-bce45f124075
+
+  affiliations:
+    - id: org_TUD
+      name: Delft University of Technology
+
+  authors: 
+    - id: FreekPols
+      name: Freek Pols
+      email: c.f.j.pols@tudelft.nl
+      orcid: 0000-0002-4690-6460
+      github: Freek Pols
+      affiliations:
+        - id: org_TUD
+    - id: LuukFroling
+      name: Luuk Fröling
+      github: LuukFroling
+      affiliations:
+        - id: org_TUD

@@ -5,9 +5,19 @@ project:
   title: The TUD guide to open publishing with JupyterBook
   description: This is a manual for open publishing with JupyterBook (2) for Delft University of Technology.
   keywords: [Jupyter Book; Open Publishing; Open Education; Open Science]
-  # authors: []
+  authors: 
+
+    
+
+
   github: https://github.com/TUD-JB-OS/book
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+
+extends:
+  - authors.yml
+  # - export.yml
+  # - toc.yml
+
 site:
   template: book-theme
   # options:
