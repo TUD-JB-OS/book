@@ -1,7 +1,9 @@
 ---
+title: Typst
+# short_title: 
+# subtitle: Using Overleaf and GitHub to publish the web-based version of a project
 authors:
     - id: FreekPols
-
-updated: November 30, 2025
----
-# Typst
+    - id: LuukFroling
+updated: December 16, 2025
+--- 
