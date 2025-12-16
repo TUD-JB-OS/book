@@ -16,6 +16,10 @@ project:
       children: 
       - file: content/2_science/1_intro
       - file: content/2_science/2_workflow
+        children: 
+        - file: content/2_science/2a_local.md
+        - file: content/2_science/2b_github.md
+        - file: content/2_science/2c_overleaf.md
       - file: content/2_science/3_export
         children:
         - file: content/2_science/3a_latex.md
