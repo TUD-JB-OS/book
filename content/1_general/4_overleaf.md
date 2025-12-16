@@ -1,4 +1,11 @@
-# Using Jupyter Book with Overleaf, Visual Studio Code and GitHub Pages (temporary)
+---
+title: Overleaf with Jupyter Book
+short_title: Overleaf
+subtitle: Using Overleaf and GitHub to publish the web-based version of a project
+authors:
+    - id: FreekPols
+    - id: LuukFroling
+--- 
 
 If you want your Overleaf LaTeX project to build automatically into a polished, interactive website and also integrate Python scripts and visualizations developed in VS Code, combining Jupyter Book with GitHub Pages provides a seamless way to turn your work into a continuously updated, professionally hosted site.
 
