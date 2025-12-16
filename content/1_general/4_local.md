@@ -1,7 +1,7 @@
 ---
 title: Setting up a local workspace
 short_title: Local
-subtitle: Using the Jupyter Book command-line tools with Visual Studio Code
+subtitle: Using local tools to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling

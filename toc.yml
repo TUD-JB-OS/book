@@ -15,6 +15,8 @@ project:
           - file: content/1_general/4_githubIDE.md
           - file: content/1_general/4_local.md
           - file: content/1_general/4_overleaf.md
+          - file: content/1_general/4_juplab.md
+      - file: content/1_general/5_publishing.md
 
     - title: Scientific publishing
       children: 

@@ -1,7 +1,7 @@
 ---
 title: Overleaf with Jupyter Book
 short_title: Overleaf
-subtitle: Using Overleaf and GitHub to publish the web-based version of a project
+subtitle: Using Overleaf to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling

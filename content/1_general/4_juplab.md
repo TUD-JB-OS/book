@@ -1,9 +1,11 @@
 ---
-title: GitHub web editor
+title: JupyterLab
 # short_title: GitHub IDE
-subtitle: Using the GitHub Integrated Development Environment to write and edit content
+subtitle: Using JupyterLab to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling
 updated: December 16, 2025
 --- 
+
+# GH IDE
