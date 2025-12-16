@@ -10,7 +10,11 @@ project:
       - file: content/1_general/1_intro.md
       - file: content/1_general/2_credits.md
       - file: content/1_general/3_somecontent.md
-      - file: content/1_general/4_overleaf.md
+      - file: content/1_general/4_writing
+        children:
+          - file: content/1_general/4_githubIDE.md
+          - file: content/1_general/4_local.md
+          - file: content/1_general/4_overleaf.md
 
     - title: Scientific publishing
       children: 
