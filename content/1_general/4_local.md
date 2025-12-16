@@ -81,3 +81,5 @@ Once loaded the project should be accessible through the local host, using a lin
 Try saving an edit to a markdown file, and the change will be reflected on the webpage!
 
 
+## VSC
+https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight

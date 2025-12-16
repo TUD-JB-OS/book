@@ -9,3 +9,5 @@ updated: December 16, 2025
 --- 
 
 # GH IDE
+
+see [Jupyter lab with Myst](https://jupyter-book.github.io/jupyterlab-myst/)

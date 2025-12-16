@@ -17,6 +17,7 @@ project:
           - file: content/1_general/4_overleaf.md
           - file: content/1_general/4_juplab.md
       - file: content/1_general/5_publishing.md
+      - file: content/1_general/8_cheatsheet.md
 
     - title: Scientific publishing
       children: 
