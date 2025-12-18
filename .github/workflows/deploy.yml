@@ -34,8 +34,9 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
+          #https://github.com/actions/setup-python?tab=readme-ov-file#caching-packages-dependencies
           python-version: '3.11'   # or your version
-          cache: 'pip' #
+          # cache: 'pip' #
 
       - name: Install Python dependencies
         run: |
