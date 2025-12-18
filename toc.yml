@@ -25,6 +25,7 @@ project:
       - file: content/2_science/2_workflow
         children:  
         - file: content/2_science/2b_github.md
+      - file: content/2_science/6_analysis.ipynb
  
       - file: content/2_science/3_export
         children:
