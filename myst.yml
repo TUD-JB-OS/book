@@ -10,6 +10,10 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/updated-date-frontmatter/update-date-frontmatter.mjs
   
 
+  jupyter:
+    binder:
+      repo: https://github.com/executablebooks/thebe-binder-base
+      
 extends:
   - authors.yml
   # - export.yml
