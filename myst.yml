@@ -13,7 +13,9 @@ project:
   jupyter:
     binder:
       repo: https://github.com/executablebooks/thebe-binder-base
-      
+  execute:
+    execute_notebooks: true
+
 extends:
   - authors.yml
   # - export.yml
