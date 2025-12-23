@@ -5,7 +5,7 @@ short_title: Publishing
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 --- 
 
 blabla

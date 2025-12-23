@@ -5,7 +5,7 @@ subtitle: Using Overleaf to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 --- 
 
 If you want your Overleaf LaTeX project to build automatically into a polished, interactive website and also integrate Python scripts and visualizations developed in VS Code, combining Jupyter Book with GitHub Pages provides a seamless way to turn your work into a continuously updated, professionally hosted site.

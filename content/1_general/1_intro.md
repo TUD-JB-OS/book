@@ -5,7 +5,7 @@ short_title: Introduction
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 --- 
 
 

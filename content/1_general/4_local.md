@@ -5,7 +5,7 @@ subtitle: Using local tools to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 ---
 
 This page will explain how to install the Jupyter Book command-line tools on your device, and how to start a local development server using Visual Studio Code. 

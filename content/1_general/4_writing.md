@@ -5,7 +5,7 @@ short_title: Editing
 authors:
     - id: FreekPols
 
-updated: December 16, 2025
+
 --- 
 
 # Writing and editing content

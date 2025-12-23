@@ -7,7 +7,7 @@ authors:
     - id: LuukFroling
     - Robert Lanzafame
     - Jim Madge
-updated: December 16, 2025
+
 ---
 Taken from JB workshop template
 

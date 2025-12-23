@@ -5,5 +5,5 @@ subtitle: Using the GitHub Integrated Development Environment to write and edit 
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 --- 

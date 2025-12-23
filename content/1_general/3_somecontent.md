@@ -5,6 +5,6 @@ short_title: Content
 authors:
     - id: FreekPols
     
-updated: December 16, 2025
+
 --- 
 # Content

@@ -5,7 +5,7 @@ short_title: About
 authors:
     - id: FreekPols
     
-updated: December 16, 2025
+
 --- 
 
 # About

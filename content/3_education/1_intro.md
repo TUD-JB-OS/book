@@ -5,6 +5,6 @@ title: Introduction to open education publishing
 authors:
     - id: FreekPols
     - id: LuukFroling
-updated: December 16, 2025
+
 --- 
 # Introduction
