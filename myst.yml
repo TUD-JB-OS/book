@@ -10,8 +10,8 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
   
   references:
-      myst: https://mystmd.org/guide
-      jb: https://jupyterbook.org/
+    myst: https://mystmd.org/guide
+    jb: https://jupyterbook.org/
 
   jupyter:
     binder:
