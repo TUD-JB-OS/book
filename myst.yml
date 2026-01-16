@@ -12,6 +12,7 @@ project:
   references:
     myst: https://mystmd.org/guide
     jb: https://jupyterbook.org/
+    MC: https://freekpols.github.io/Mechanica
 
   jupyter:
     binder:
