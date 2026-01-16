@@ -11,3 +11,6 @@ authors:
 # GH IDE
 
 see [Jupyter lab with Myst](https://jupyter-book.github.io/jupyterlab-myst/)
+
+:::{embed} xref:myst#admonition
+:::
