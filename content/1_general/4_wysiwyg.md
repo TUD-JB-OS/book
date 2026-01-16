@@ -10,3 +10,10 @@ The editor has visual buttons to more easily include formatting, links, images, 
 
 A screenshot of the WYSIWYG editor interface.
 ```
+
+## Enable the editor in your project
+
+## Known limitations
+
+## 
+
