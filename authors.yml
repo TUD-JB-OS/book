@@ -19,6 +19,13 @@ project:
       github: LuukFroling
       affiliations:
         - id: org_TUD
+    - id: SaulloCastro
+      name: Saullo Castro
+      email: S.G.P.Castro@tudelft.nl
+      orcid: 0000-0002-6680-9246
+      github: saullocastro
+      affiliations:
+        - id: org_TUD
     # - id: IlkeErcan
     #   name: Ilke Ercan
     # - id: BaharehAbdi

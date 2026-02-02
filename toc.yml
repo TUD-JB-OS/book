@@ -32,6 +32,7 @@ project:
         children:
         - file: content/2_science/3a_latex.md
         - file: content/2_science/3b_typst.md
+      - file: content/2_science/7_publishingdata.md
 
     - title: Educational publishing
       children: 
