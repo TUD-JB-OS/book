@@ -5,19 +5,9 @@ short_title: About
 authors:
     - id: FreekPols
     
-
 --- 
 
-# About
 
+```{include} ../README.md
+```
 
-## Authors
-
-
-## Attributions
-
-
-## License
-CC-BY-4.0
-
-## Funding
