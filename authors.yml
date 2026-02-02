@@ -22,7 +22,7 @@ project:
     - id: SaulloCastro
       name: Saullo Castro
       email: S.G.P.Castro@tudelft.nl
-      orcid: 0000-0002-6680-9246
+      orcid: 
       github: saullocastro
       affiliations:
         - id: org_TUD
