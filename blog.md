@@ -5,6 +5,10 @@ author: null
 ---
 
 **03-02-2026** We made major progress with our [Typst template](https://github.com/TUD-JB-OS/typst_template). The cover page has significantly improved.
+```{figure} content/images/typst_frontpage.png
+:width: 70%
+```
+
 
 **02-02-2026** We did a live demo of the starterkit during the official TU Delft kickoff of Open Science funded projects. With a few clicks a new repo was live, demonstrating how easy it is to get started with our tools.
 
