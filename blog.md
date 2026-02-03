@@ -1,4 +1,8 @@
-# Blog
+---
+title: Blog
+
+author: null
+---
 
 **03-02-2026** We made major progress with our [Typst template](https://github.com/TUD-JB-OS/typst_template). The cover page has significantly improved.
 

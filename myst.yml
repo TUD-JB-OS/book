@@ -10,7 +10,7 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
   
   references:
-    myst: https://mystmd.org/guide
+    myst-guide: https://mystmd.org/guide
     jb: https://jupyterbook.org/
     MC: https://freekpols.github.io/Mechanica
 
@@ -29,5 +29,6 @@ site:
   template: book-theme
   options:
     style: custom.css
+    hide_authors: true
   #   favicon: favicon.ico
   #   logo: site_logo.png
