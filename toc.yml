@@ -38,3 +38,5 @@ project:
       children: 
       - file: content/3_education/1_intro.md
       - file: content/3_education/2_workflow.md
+    
+    - file: blog.md
