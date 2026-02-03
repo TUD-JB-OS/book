@@ -26,14 +26,28 @@ project:
       github: saullocastro
       affiliations:
         - id: org_TUD
-    # - id: IlkeErcan
-    #   name: Ilke Ercan
-    # - id: BaharehAbdi
-    #   name: Bahareh Abdi
-    # - id: GarySteele
-    #   name: Gary Steele
-    # - id: RolfHut
-    #   name: Rolf Hut
-    # - id: GeorgiosVarnavides
-    #   name: Georgios Varnavides
-    
+    - id: IlkeErcan
+      name: Ilke Ercan
+      affiliations:
+        - id: org_TUD
+    - id: BaharehAbdi
+      name: Bahareh Abdi
+      affiliations:
+        - id: org_TUD
+    - id: GarySteele
+      name: Gary Steele
+      affiliations:
+        - id: org_TUD
+    - id: RolfHut
+      name: Rolf Hut
+      affiliations:
+        - id: org_TUD
+    - id: GeorgiosVarnavides
+      name: Georgios Varnavides
+      affiliations:
+        - id: org_TUD
+    - id: AntonAkhmerov
+      name: Anton Akhmerov
+      affiliations:
+        - id: org_TUD
+        
