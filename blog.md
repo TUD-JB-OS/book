@@ -4,6 +4,9 @@ title: Blog
 author: null
 ---
 
+**23-02-2026** Today was an exciting day! In the morning Maciej Topyla showed his awesome Typst thesis template. He has made great progress and it is looking awesome. He has made effort in creating a considerate architecture for the template, which will make it easy to maintain and extend. During lunch I showed our project and the possibility to the Applied Science Education Innovation team. They were enthusiastic about the possibilities for both education and science.
+
+
 **03-02-2026** We made major progress with our [Typst template](https://github.com/TUD-JB-OS/typst_template). The cover page has significantly improved.
 ```{figure} content/images/typst_frontpage.png
 :width: 70%
