@@ -25,14 +25,14 @@ The deployed project has obtained a slider at the top right corner of each page,
 Two actions are needed to enable the WYSIWYG editor in your project. First, you need to modify your GitHub workflow file to include the script that adds the WYSIWYG editor to your project. 
 Right after 
 
-```{yml}
+```{code} yml
   - name: Build HTML Assets
     run: myst build --html
 ```
 
 you include the following action:
 
-```{yml}
+```{code} yml
     - name: Add wizard to book
       uses: luukfroling/Wizard-jb2/actions@main 
       with:
@@ -46,26 +46,26 @@ Make sure that your github repository is known by specifying it in the myst.yml 
 
 The second action requires somewhat more work as you need to give access to the repository to the users who want to use the WYSIWYG editor. You can do this by creating a fine-grained access token. 
 
-```{code-block}
-How to Create a GitHub Fine-Grained Personal Access Token
-Click here to open the token creation menu.
-Name your token and set an expiration if desired.
-Under Resource owner, select Your account, if it was not already preselected.
-Under Repository access, choose All repositories.
-Under Repository permissions, set Contents to Read and write.
-Scroll down and click Generate token.
-Copy the token and paste it here.
-Note: This token will not be visible again. If you want to use it more, save it somewhere.
+```{note} How to Create a GitHub Fine-Grained Personal Access Token
+- Click here to open the token creation menu.
+- Name your token and set an expiration if desired.
+- Under Resource owner, select Your account, if it was not already preselected.
+- Under Repository access, choose All repositories.
+- Under Repository permissions, set Contents to Read and write.
+- Scroll down and click Generate token.
+- Copy the token and paste it here.
+- Note: This token will not be visible again. If you want to use it more, save it somewhere.
 ```
 
 ````{tab-item} GitLab
-
+some instructions for gitlab
 ````
 `````
 
 ```{warning} 
-Do not extend the permissions of the token beyond what is necessary for the WYSIWYG editor to function. Only give it read and write access to the contents of the repository, and do not give it access to other features such as issues or pull requests. This will help to keep your repository secure.
-Moreover, you have to specify a time limit for the token, as this will help to prevent unauthorized access to your repository in case the token is compromised. Do not set the token to never expire, as this will increase the risk of unauthorized access to your repository.
+**Do not extend the permissions of the token beyond what is necessary** for the WYSIWYG editor to function. Only give it read and write access to the contents of the repository, and do not give it access to other features such as issues or pull requests. This will help to keep your repository secure.
+
+**Do not set the validity time to long for the token**. This will help to prevent unauthorized access to your repository in case the token is compromised. 
 ```
 
 ## Known limitations
