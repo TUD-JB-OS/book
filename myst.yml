@@ -13,6 +13,7 @@ project:
     myst-guide: https://mystmd.org/guide
     jb: https://jupyterbook.org/
     MC: https://freekpols.github.io/Mechanica
+    WS: https://jupyter-book.github.io/workshop-template/
 
   jupyter:
     binder:
