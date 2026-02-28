@@ -7,7 +7,7 @@ authors:
     - id: LuukFroling
 
 --- 
-# LaTeX
+> In this section...
 
 ## Bachelor and Master Theses
 

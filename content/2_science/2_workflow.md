@@ -8,6 +8,7 @@ authors:
 
 --- 
 
+> In this section...
 
 The sections below describe different workflows for working with Jupyter Book. If you want to get started quickly using one of the TUD templates, the GitHub workflow is recommended.
 

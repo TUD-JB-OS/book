@@ -50,7 +50,7 @@ Now that you have created your repository, you can enable [GitHub pages](https:/
 
 4) Select 'GitHub Actions' as the source for GitHub pages by navigating to Settings > Pages > Build and deployment, and selecting 'GitHub Actions' from the source dropdown (default is 'Deploy from a branch')
 
-5) Go to the `code` section of your repository, and click on the gear-icon on the right side (near <b>About</b>). Check the box <b> Use your GitHub Pages website </b>. This will add a link to your page in the about section. 
+5) Go to the `code` section of your repository, and click on the gear-icon on the right side (near **About**). Check the box **Use your GitHub Pages website**. This will add a link to your page in the about section. 
 
 6) Last, go to `Actions` in the top menu and click on the (red) `initial commit`, then select `re-run all jobs`. 
 
