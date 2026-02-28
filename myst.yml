@@ -29,7 +29,8 @@ extends:
 site:
   template: book-theme
   options:
-    style: custom.css
+    style: style/custom.css
     hide_authors: true
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+    favicon: style/favicon.ico
+    logo: style/tudelft.png
+    logo_dark: style/tudelft-dark.png

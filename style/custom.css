@@ -1,6 +1,3 @@
-/* Remove style from date node, to allow us to add the update date underneath (remove mb-4) */
-/* Use order to force date and updated date to be in the correct visual order */
-
 #skip-to-frontmatter {
   margin-bottom: 0;
   order: -2; /* Keep the original date first */

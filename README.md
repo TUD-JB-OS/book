@@ -1,9 +1,12 @@
 # README
 
+PLACEHOLDER: some general info
 
 ## 📖 Use the manual
 
+
 ## Where to start 
+
 ## Purpose
 
 ## 📄 License
@@ -17,9 +20,25 @@ You are free to:
 
 ## Authors
 
+- Freek Pols  
+- Saullo Castro
+- Gary Steele
+- Rolf Hut
+- Bahareh Abdi
+- Ilke Ercan
+- Georgios Varnavides
+- Anton Akhmerov
+
+
+
+
 ## 🤝 How to contribute
 
+Some info
+
 ## 🛠️ Building the Book
+
+How to do locally
 
 ## 📁 Repository Structure
 
@@ -28,17 +47,22 @@ You are free to:
    ├── index.md          # landing page
    ├──┐ content/
       ├── credits.md     # Book introduction
-      ├──┐ classic/       
-         ├── ...         # Chapters on classical mechanics
-      ├──┐ special        
-         ├── ...         # Chapters on special relativity
-
+      ├──┐ 1_general/       
+         ├── ...         # Chapters on JupyterBook and editing
+      ├──┐ 2_science/        
+         ├── ...         # Chapters on writing and publishing scientific content
+      ├──┐ 3_education/        
+         ├── ...         # Chapters on writing and publishing educational content
       ├──┐ images/
          ├── ...         # images
-         ├── raw/        # svg and python 
-
-      ├──┐ pysim/        
-         ├── ...         # python simulations
+      
+   |──┐ style/
+         ├── ...         # custom CSS and brands 
+   |── README.md           # this file
+   |── export.yml          # export configuration for 
+   |── toc.yml             # table of contents for the book
+   |── myst.yml            # Jupyter Book configuration file
+      
 ```
 
 ## 👥 Authors and Contributors
