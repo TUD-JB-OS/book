@@ -7,7 +7,7 @@ project:
   keywords: [Jupyter Book; Open Publishing; Open Education; Open Science]
   github: https://github.com/TUD-JB-OS/book
   plugins:
-    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
   
   references:
     myst-guide: https://mystmd.org/guide
