@@ -11,10 +11,17 @@ variables
 
 https://gitlab.com/pages/jupyterbook
 
+
+`````{tab-set} 
+````{tab-item} GitLab and server
 This 
 
 ```{code} yml 
+:filename: .gitlab-ci.yml
+:label: ci-for-gitlab-tudserver
+:linenos:
 :caption: .gitlab-ci.yml for TU server deployment
+:dropdown: true
 
 stages:
   - deploy
@@ -56,10 +63,21 @@ deploy:
     # syncs with the server
     - rsync -ravz "${LOCAL_BUILD_DIR}/" -e "${SSH_COMMAND} -i ${WEBSITE_UPLOAD_KEY}" "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}/"
 ```
+````
+````{tab-item} GitLab and GitLab Pages
+some content on gitlab pages
+```` 
+
+`````
 
 other option (from Anton):
 
 ```{code} yml
+:label: ci-for-gitlab-externalserver
+:linenos:
+:caption: .gitlab-ci.yml for external server deployment
+:dropdown: true
+
 default:
   image:
     name: ghcr.io/prefix-dev/pixi

@@ -19,7 +19,7 @@ project:
           - file: content/1_general/4_wysiwyg.md
       - file: content/1_general/5_publishing.md
         children:
-          - file: content/5_gitlab.md
+          - file: content/1_general/5_gitlab.md
       - file: content/1_general/8_cheatsheet.md
 
     - title: Scientific publishing
