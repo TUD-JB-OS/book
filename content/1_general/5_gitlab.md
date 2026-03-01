@@ -1,27 +1,30 @@
 # GitLab and TU server
 
-requirements
-- runner
-- linux website
-or
-- gl pages
+There are (at least) two options for hosting your Jupyter Book through GitLab:
+1. Using GitLab CI to deploy to an external server (e.g. TU server)
+2. Using GitLab Pages to host the book directly on GitLab
 
-keys
-variables
+```{note}
+GitLab pages is not enable by default for TU Delft, but https://gitlab.ewi.tudelft.nl/ has enabled GitLab pages. 
+```
+
 
 https://gitlab.com/pages/jupyterbook
 
 
 `````{tab-set} 
 ````{tab-item} GitLab and server
-This 
+Needs
+- runner
+- linux website with apache webserver
+keys
+variables
 
 ```{code} yml 
 :filename: .gitlab-ci.yml
 :label: ci-for-gitlab-tudserver
 :linenos:
 :caption: .gitlab-ci.yml for TU server deployment
-:dropdown: true
 
 stages:
   - deploy
@@ -73,6 +76,7 @@ some content on gitlab pages
 other option (from Anton):
 
 ```{code} yml
+:filename: .gitlab-ci.yml
 :label: ci-for-gitlab-externalserver
 :linenos:
 :caption: .gitlab-ci.yml for external server deployment
