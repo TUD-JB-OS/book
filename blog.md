@@ -3,6 +3,7 @@ title: Blog
 
 author: null
 ---
+**02-03-2026** We have updated the [page-last-update plugin](https://github.com/jupyter-book/myst-plugins/tree/main/plugins/page-last-updated) so that the date aligns with the British way of writing, is excluded in pdf export and can be turned off at the specific pages (like the landing page).
 
 **23-02-2026** Today was an exciting day! In the morning Maciej Topyla showed his awesome Typst thesis template. He has made great progress and it is looking awesome. He has made effort in creating a considerate architecture for the template, which will make it easy to maintain and extend. During lunch I showed our project and the possibility to the Applied Science Education Innovation team. They were enthusiastic about the possibilities for both education and science.
 

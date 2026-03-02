@@ -9,6 +9,8 @@ site:
 numbering:
   title:
     enabled: false
+
+no-update-date: true
 ---
 
 +++ { "kind": "split-image" }
