@@ -33,32 +33,31 @@ The TU Delft guide to open publishing with JupyterBook is a comprehensive resour
 
 ````{grid} 2
 ```{card}
-:header: Manual
+:header: 📖 Manual
 :link: content/1_general/1_intro.md
 
-📖 Read the manual
+Read the manual
 ```
 
 ```{card}
-:header: Starterkit
+:header: ✍ Starterkit
 :link: no-link
 
-✍ Use the starterkit
+Use the starterkit
 ```
 
 
 ```{card}
-:header: Typst thesis template
+:header: 📈 Typst thesis template
 :link: no-link
 
-📈 See the Typst thesis template
+See the Typst thesis template
 ```
 
 ```{card}
-:header: LaTeX thesis template
+:header: 📑 LaTeX thesis template
 :link: no-link
-
-📑 Inspect the LaTeX thesis template
+Inspect the LaTeX thesis template
 ```
 
 ````

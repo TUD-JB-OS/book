@@ -5,7 +5,6 @@ subtitle: Using local tools to write and edit content
 authors:
     - id: FreekPols
     - id: LuukFroling
-
 ---
 
 This page will explain how to install the Jupyter Book command-line tools on your device, and how to start a local development server using Visual Studio Code. 
@@ -76,7 +75,7 @@ jupyter book start
 
 Once loaded the project should be accessible through the local host, using a link similar to `https://localhost:3000` (check the terminal). 
 
-2) Open Simple Browser from the command pallete. Press Ctrl+shirt+p and search for 'simple browser'. When prompted for an URL, provide the URL shown in the command line. 
+2) Open Simple Browser from the command pallet. Press Ctrl+shirt+p and search for 'simple browser'. When prompted for an URL, provide the URL shown in the command line. 
 
 Try saving an edit to a markdown file, and the change will be reflected on the webpage!
 

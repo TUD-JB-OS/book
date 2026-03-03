@@ -34,3 +34,14 @@ site:
     favicon: style/favicon.ico
     logo: style/tudelft.png
     logo_dark: style/tudelft-dark.png
+    folders: true
+
+  nav:
+    - title: Introduction
+      url: /content/general/intro
+    - title: Scientific
+      url: /content/2_science/1_intro
+    - title: Education
+      url: /content/3_education/1_intro
+    - title: Starterkit
+      url: https://tud-jb-os.github.io/starterkit

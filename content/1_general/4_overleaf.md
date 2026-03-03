@@ -48,7 +48,7 @@ The next few steps will be similar to the [Jupyter Book documentation](https://j
 ```shell
 pip install "jupyter-book>=2.0.0a0"
 ```
-6) Run the `init` command to ininitialise a `myst` project in the current directory. Do not run the `start` command (Jupyter Book will ask). 
+6) Run the `init` command to initialize a `myst` project in the current directory. Do not run the `start` command (Jupyter Book will ask). 
 ```shell
 jupyter book init
 ```
