@@ -73,7 +73,10 @@ some content on gitlab pages
 
 `````
 
-other option (from Anton):
+## Example from [topocondmat](https://topocondmat.org/)
+The .gitlab-ci.yml below is a second example of how to deploy to an external server. It uses the pixi tool to manage dependencies and caching, which can speed up the build process. It also includes some additional features, such as deploying branch websites and allowing manual stopping of those branch websites.
+
+The building of all branches is recommended as it allows to preview the changes compare to the main branch. If you are happy with the changes you can merge the branch into the main branch, which will trigger the deployment of the main website. This thus allows to fully test the functionalities of the website so that the main website is always working. 
 
 ```{code} yml
 :filename: .gitlab-ci.yml
@@ -155,6 +158,4 @@ stop branch website:
   variables:
     WEBSITE_UPLOAD_PATH: /branch_${CI_COMMIT_REF_SLUG}
   allow_failure: true
-
-
 ```
