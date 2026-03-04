@@ -41,7 +41,7 @@ Read the manual
 
 ```{card}
 :header: ✍ Starterkit
-:link: no-link
+:link: https://tud-jb-os.github.io/starterkit/
 
 Use the starterkit
 ```
@@ -49,14 +49,14 @@ Use the starterkit
 
 ```{card}
 :header: 📈 Typst thesis template
-:link: no-link
+:link: https://github.com/TUD-JB-OS/typst_template
 
 See the Typst thesis template
 ```
 
 ```{card}
 :header: 📑 LaTeX thesis template
-:link: no-link
+:link: https://github.com/TUD-JB-OS/latex_template
 Inspect the LaTeX thesis template
 ```
 

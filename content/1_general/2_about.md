@@ -8,6 +8,7 @@ authors:
 --- 
 
 ```{warning} UNDER CONSTRUCTION
+This manual / book is under construction and is being developed in the next few months.
 ```
 
 

@@ -40,8 +40,8 @@ site:
     - title: Introduction
       url: /content/general/intro
     - title: Scientific
-      url: /content/2_science/1_intro
+      url: /content/science/intro
     - title: Education
-      url: /content/3_education/1_intro
+      url: /content/education/intro
     - title: Starterkit
       url: https://tud-jb-os.github.io/starterkit
