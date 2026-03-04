@@ -67,7 +67,7 @@ Here we merely summarize the different ways of writing and editing your content.
 Information for how to use / enable it is covered in the subsequent chapters.
 
 ````{tab-set}
-```{tab-item} [Local with VSC](./4_local.md)
+```{tab-item} Local with VSC
 You can edit your project on your local machine. 
 
 |requirements|pros|cons|
@@ -79,7 +79,7 @@ You can edit your project on your local machine.
 
 ```
 
-```{tab-item} GitHub web editor 
+```{tab-item} Web editor 
 If you work with GitHub, you can use the GitHub {abbr}`IDE`.
 
 |requirements|pros|cons|
@@ -109,7 +109,7 @@ If you work with GitHub, you can use the GitHub {abbr}`IDE`.
 
 ```{tab-item} GitLab
 GitLab is advised at various Universities for multiple reasons. 
-One is digital souverenity: the servers where the source files are stored are located at the campus.
+One is digital soverenity: the servers where the source files are stored are located at the campus.
 The other is that an additional back-up is made which can be accessed by people from the university.
 
 
@@ -117,6 +117,15 @@ The other is that an additional back-up is made which can be accessed by people 
 |---|---|---|
 |GitLab account|No installation required| Not automatic deployed |
 |gitlab.ci | | |
+|Internet connection|Accessible from any device with internet|Dependent on internet connection|
+```
+
+```{tab-item} WYSIIWYG editor
+
+
+|requirements|pros|cons|
+|---|---|---|
+|Key|No installation required|  |
 |Internet connection|Accessible from any device with internet|Dependent on internet connection|
 ```
 ````
