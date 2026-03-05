@@ -50,4 +50,7 @@ project:
       name: Anton Akhmerov
       affiliations:
         - id: org_TUD
-        
+    - id: MaciejTopyla
+      name: Maciej Topyla
+      affiliations:
+        - id: org_TUD    
