@@ -7,9 +7,8 @@ project:
     
     - file: content/1_general/1_intro.md    
       children:
-      # - file: content/1_general/1_intro.md
       - file: content/1_general/2_about.md
-      - file: content/1_general/3_somecontent.md
+      - file: content/1_general/3_general.md
       - file: content/1_general/4_writing
         children:
           - file: content/1_general/4_githubIDE.md

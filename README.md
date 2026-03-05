@@ -1,13 +1,18 @@
 # README
 
-PLACEHOLDER: some general info
 
 ## 📖 Use the manual
 
+For this project we created a manual, a starterkit, and two templates for static output. This manual describes everything you need to know (and more) about writing and publishing a bachelor or master thesis with Jupyter Book, writing and publishing a scientific paper and about writing and publishing educational content with Jupyter Book. 
 
-## Where to start 
+## 🕵 Where to start 
 
-## Purpose
+Already know about Jupyter Book, familiar with GitHub or GitLab, Markdown... start with cloning the starterkit and start writing your own book. New to the ecosystem? Start with the manual, and then move on to the starterkit.
+
+## 🏁 Purpose
+
+The purpose of this project and this manual is to enable others to use Jupyter Book for writing and publishing their own scientific and educational content. We hope to lower the technical barrier for researchers and educators to create and share their own resources, and to promote open science and open education practices.
+
 
 ## 📄 License
 
@@ -18,7 +23,7 @@ You are free to:
 - **Adapt** — remix, transform, and build upon the material for any non-commercial purpose provided proper attribution is given.
 
 
-## Authors
+## 🖋 Authors
 
 - Freek Pols  
 - Saullo Castro
@@ -29,51 +34,57 @@ You are free to:
 - Georgios Varnavides
 - Anton Akhmerov
 
+## 🙎Team members
 
-
+- Maciej Topyla
+- Luuk Fröling
+- Ronald Ligteringen
 
 ## 🤝 How to contribute
 
-Some info
+We welcome contributions to this project. Whether you are a students willing to explore and provide feedback to our workflow, a developer working on Jupyter Book or a researcher in need of both writing for a scientific paper whilst simultaneously publishing your work online for a wider audience... 
+
+Spotted a mistake? Create an issue or submit a pull request. Want to contribute but not sure how? Contact us and we will be happy to help you get started.
 
 ## 🛠️ Building the Book
 
-How to do locally
+You can download and build this manual locally. Install the required software, download the repository, and run the following command in the terminal at the root of the repository (where the myst.yml file is located):
+
+```bash
+jupyter-book build
+```
+
 
 ## 📁 Repository Structure
 
 ```
-├──┐ myst.yml             # Jupyter Book configuration & Table of contents
-   ├── index.md          # landing page
+├──┐ root
+   ├── myst.yml             # Jupyter Book configuration & Table of contents
+   ├── index.md             # landing page
+   ├── blog.md              # blog with updates on the project
+   |── README.md            # this file
+   |── export.yml           # export configuration for exporting to pdf
+   |── toc.yml              # table of contents for the book
+
    ├──┐ content/
-      ├── credits.md     # Book introduction
+      ├── credits.md       # Book introduction
       ├──┐ 1_general/       
-         ├── ...         # Chapters on JupyterBook and editing
+         ├── ...           # Chapters on JupyterBook and editing
       ├──┐ 2_science/        
-         ├── ...         # Chapters on writing and publishing scientific content
+         ├── ...           # Chapters on writing and publishing scientific content
       ├──┐ 3_education/        
-         ├── ...         # Chapters on writing and publishing educational content
+         ├── ...           # Chapters on writing and publishing educational content
       ├──┐ images/
-         ├── ...         # images
+         ├── ...           # images
       
    |──┐ style/
-         ├── ...         # custom CSS and brands 
-   |── README.md           # this file
-   |── export.yml          # export configuration for 
-   |── toc.yml             # table of contents for the book
-   |── myst.yml            # Jupyter Book configuration file
-      
+         ├── ...           # custom CSS and brands 
+
 ```
-
-## 👥 Authors and Contributors
-
-This book was created by a team of lecturers from the **Delft Institute of Applied Mathematics** at **TU Delft University of Technology**.
-
-### Principal Authors
 
 ## 📧 Contact
 
-For questions about this textbook, please contact Freek Pols.
+For questions about this textbook, please contact [Freek Pols](mailto:c.f.j.pols@tudelft.nl).
 
 
 ## 💰 Funding
