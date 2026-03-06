@@ -5,7 +5,9 @@ short_title: General
 authors:
     - id: FreekPols
     
-
+kernelspec:
+  name: python3
+  display_name: 'Python 3'
 --- 
 
 <!-- Imagine that you have worked on code, created a prototype, or made a molecule or enzyme where its structure is crucial... and then your supervisor requires you to hand in a static pdf only... much of your efforts is not conveyed through this use of media. What if there is a better way? A way that shows what you actually have done and accomplished and even let the reader interact with it, for instance by looking the molecule from different angles, play with the code to see how it works, or inspect the prototype in 3D. And what if you still create a beautiful but static pdf version of your report, but without the need of any additional effort.  
@@ -23,6 +25,8 @@ Our idea is to engage young academics, starting from bachelors' students, in ope
 ```{iframe} https://tud365-my.sharepoint.com/personal/gvarnavides_tudelft_nl/_layouts/15/embed.aspx?UniqueId=b68ca022-d2b2-4928-b5e6-3b6eaa5c5632&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create
 :label: JB-publish-video
 :width: 100%
+:caption: Video credit: G. Varnavides
+:alt: Video showing the use of Jupyter Book with interactive functionality like zooming in.
 ```
 
 It allows to process data and to fully show the analysis online whilst hiding the code in a pdf version like this:
