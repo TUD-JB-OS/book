@@ -48,12 +48,13 @@ Spotted a mistake? Create an issue or submit a pull request. Want to contribute 
 
 ## 🛠️ Building the Book
 
-You can download and build this manual locally. Install the required software, download the repository, and run the following command in the terminal at the root of the repository (where the myst.yml file is located):
+You can download and build this manual locally. Install the [required software](https://jupyterbook.org/stable/get-started/install/), [download the repository](https://github.com/TUD-JB-OS/book/archive/refs/heads/main.zip), and run the following command in the terminal at the root of the repository (where the myst.yml file is located):
 
 ```bash
 jupyter-book build
 ```
 
+This will start a local server and open the book in your web browser.
 
 ## 📁 Repository Structure
 
