@@ -7,3 +7,7 @@ authors:
     
 
 --- 
+
+- instruction video
+- ideas of what we are aiming at
+- what we developed....
