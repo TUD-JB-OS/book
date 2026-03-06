@@ -27,7 +27,6 @@ Our idea is to engage young academics, starting from bachelors' students, in ope
 
 It allows to process data and to fully show the analysis online whilst hiding the code in a pdf version like this:
 
-
 +++{"no-pdf": true}
 ```{code-cell} Python
 :tag: hide-input
@@ -37,6 +36,18 @@ y = 5
 print(x+y)
 ```
 +++
+
+It also allows you to do calculations where the output value is used in the text - like using a variable in a sentence:
+
++++{"no-pdf": true}
+```{code-cell} Python
+:tag: hide-input
+input_x = 2.034
+output_y = input_x**2
+```
++++ 
+
+Where we use {eval}`output_y` in the text to show the output value.
 
 
 - instruction video
