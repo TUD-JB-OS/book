@@ -7,11 +7,8 @@ authors:
     
 --- 
 
-```{warning} UNDER CONSTRUCTION
-This manual / book is under construction and is being developed in the next few months.
-```
 
-This chapter is taken from the readme file.
+This chapter includes the README file.
 
 
 ```{include} ../../README.md
