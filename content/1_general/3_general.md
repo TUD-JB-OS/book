@@ -71,17 +71,13 @@ output_y = input_x**2
 
 Where we use {eval}`output_y` in the text to show the output value. Note that the output is visible on the website, but if you inspect the pdf version, you will see that the code is hidden.
 
-```{code-cell} python
-:tag: remove-cell
+```{code-cell} Python
+:tag: hide-input
 
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as widgets
 from ipywidgets import interact
-```
-
-```{code-cell} Python
-:tag: hide-input
 
 x = np.linspace(0, 20, 7)
 y = 2.03 * x + np.random.normal(0, 3, len(x))
