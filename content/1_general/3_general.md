@@ -18,6 +18,14 @@ Interested in learning how to use it, or already exited to setup your own repo? 
 
 -->
 
+```{note} to do
+- instruction video
+- printscreen of pdf and website
+- interactive graph
+- pdf output
+```
+
+
 This book already shows how Jupyter Book can be used to create a clear report that combines text and multimedia content. To get an even better idea of what is possible, see this [video](#JB-publish-video).
 
 (whyJB)=
@@ -105,5 +113,3 @@ We created a **manual** and **instruction videos** that help you understand what
 We tested our workflow with **multiple users** and got feedback on the user-friendliness and the design of the templates.
 
 
-- instruction video
-- printscreen of pdf and website
