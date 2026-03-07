@@ -8,6 +8,8 @@ authors:
 
 --- 
 
+> Here we briefly described the various ways of storing and writing content. In the subsequent sections we describe these in more detail.
+
 There are multiple ways to write, edit and store content for Jupyter Book projects, and showing your content to the world (or not).
 In the table below, we have summarized various possibilities, specified the requirements and highlighted their pros and cons. 
 In the next chapters, each of these options is elaborated on, providing step-by-step instructions to get started.

@@ -24,7 +24,7 @@ Interested in learning how to use it, or already exited to setup your own repo? 
 - interactive graph
 - pdf output
 ```
-
+> Here we briefly described our intends and why we think Jupyter Book is great to achieve this.
 
 This book already shows how Jupyter Book can be used to create a clear report that combines text and multimedia content. To get an even better idea of what is possible, see this [video](#JB-publish-video).
 
