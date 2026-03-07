@@ -7,3 +7,5 @@ authors:
     - id: LuukFroling
 
 --- 
+
+If you work with GitHub, you can use the GitHub web editor.

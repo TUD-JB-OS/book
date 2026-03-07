@@ -1,4 +1,10 @@
-# WYSIWYG
+---
+title: What You See Is What You Get (WYSIWYG) editor
+short_title: WYSIWYG editor
+authors:
+    - id: FreekPols
+--- 
+
 
 We have been working on a What-You-See-Is-What-You-Get (WYSIWYG) editor. This editor is loaded on the publication page through a sort of pop-pup menu and allows you to change its content in a more visual way - committing changes to GitHub directly to a specific branch, or through a pull request.  
 
@@ -11,13 +17,14 @@ Including the editor in your project helps people who are not familiar with mark
 A screenshot of the WYSIWYG editor interface.
 ```
 
+(WYS-howitworks)=
 ## How it works
 
 The WYSIWYG editor is currently enabled by a script for github actions. The script looks for every html file in the repo and adds a small javascript in the header of the file before the project is actually deployed. 
 
 The deployed project has obtained a slider at the top right corner of each page, which allows you to open the editor. If you make changes to the content of that page, you can commit the changes to GitHub. You will need to have a fine-grained access token to be able to commit changes to the repository. 
 
-
+(WYS-howtoenable)=
 ## How to enable the editor in your project
 
 `````{tab-set}
@@ -68,6 +75,7 @@ some instructions for gitlab
 **Do not set the validity time to long for the token**. This will help to prevent unauthorized access to your repository in case the token is compromised. 
 ```
 
+(WYS-knownlimitations)=
 ## Known limitations
 
 
