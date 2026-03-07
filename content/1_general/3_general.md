@@ -33,7 +33,7 @@ This book already shows how Jupyter Book can be used to create a clear report th
 
 Our idea is to engage young academics, starting from bachelors' students, in open science - being transparent about their data and data-processing and sharing their work openly with others. [Jupyter Book](https://jupyterbook.org/) is a great tool for this as it allows to write, code, and publish scientific articles, theses, and textbooks in a single environment. Using the Abstract Syntax Tree (AST), conversion from different format is possible and does not require additional effort.
 
-```{figure} ../AST.png
+```{figure} ../images/AST.png
 :alt: figure showing that the markdown files can be converted to a pdf and website using the AST
 :width: 100%
 
