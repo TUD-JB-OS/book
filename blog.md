@@ -3,6 +3,8 @@ title: Blog
 
 author: null
 ---
+**13-03-2026** We got our first master student willing to jump into the project and try building their thesis with Jupyter Book. We are very excited to see how he will experience the process and what feedback we will get.
+
 **07-03-2026** We created an automated errorlog report when building a pdf. We use GitHub actions to check whether there are anu errors, and if so, put them in a markdown file and report them only on the website.
 ```{figure} content/images/errorlog.png
 :width: 70%
