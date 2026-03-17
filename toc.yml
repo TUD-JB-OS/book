@@ -21,6 +21,7 @@ project:
           - file: content/1_general/5_gitlab.md
       - file: content/1_general/6_accessibility.md
       - file: content/1_general/8_cheatsheet.md
+      - file: content/1_general/9_landingpage.md
 
     - title: Scientific publishing
       children: 
