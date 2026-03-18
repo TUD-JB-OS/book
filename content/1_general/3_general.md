@@ -50,7 +50,8 @@ Your jupyterBook project can be converted to a pdf, docx and website.
 With Jupyter Book, you can process data and fully show the analysis online whilst hiding the code in a pdf version like this:
 
 +++{"no-pdf": true}
-```{code-cell} Python
+```{code-cell} python
+:linenos:
 :tag: hide-input
 x = 2
 y = 5
@@ -62,7 +63,8 @@ print(x+y)
 It allows you to do calculations where the output value is used in the text - like using a variable in a sentence:
 
 +++{"no-pdf": true}
-```{code-cell} Python
+```{code-cell} python
+:linenos:
 :tag: hide-input
 input_x = 2.034
 output_y = input_x**2
@@ -71,7 +73,8 @@ output_y = input_x**2
 
 Where we use {eval}`output_y` in the text to show the output value. Note that the output is visible on the website, but if you inspect the pdf version, you will see that the code is hidden.
 
-```{code-cell} Python
+```{code-cell} python
+:linenos:
 :tag: hide-input
 
 import numpy as np
