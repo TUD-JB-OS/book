@@ -27,10 +27,6 @@ a comprehensive resource for educators, researchers, and students
 
 The TU Delft guide to open publishing with JupyterBook is a comprehensive resource for educators, researchers, and students interested in using the JupyterBook for creating and sharing scientific and educational content. This guide provides step-by-step instructions, best practices, and practical examples to help users with the process of building and publishing their own JupyterBook. We focus especially on the production of bachelor and master thesis, as well as open education resources.
 
-```{warning} UNDER CONSTRUCTION
-This manual / book is under construction and is being developed in the next few months.
-```
-
 +++ {"kind": "justified"}
 
 ## Get started
@@ -66,10 +62,31 @@ See and use the LaTeX thesis template to build your own thesis with LaTeX
 ```
 
 ```{card}
+:header: 📚 Gallery
+:link: https://luukfroling.github.io/BEP
+
+See a collection of TU Delft thesis written with JupyterBook.
+```
+
+
+```{card}
 :header: 🌅 TUD Interactive textbooks
 :link: https://books.open.tudelft.nl/home/catalog/category/interactive-textbooks
 
 See the collection of interactive textbooks published by TU Delft
+```
+
+```{card}
+:header: ❔ Questions?
+:url: mailto:c.f.j.pols@tudelft.nl
+
+Send us an email.
+```
+```{card}
+:header: ❌ Error report
+:url: https://github.com/TUD-JB-OS/starterkit/issues
+
+Report an error.
 ```
 
 ````
