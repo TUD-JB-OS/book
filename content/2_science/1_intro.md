@@ -23,6 +23,7 @@ For this project, we created two templates for bachelor/master thesis, one utili
 Below is a screenshot of the output of both the web-based and PDF version of a project created with Jupyter Book. 
 
 ```{figure} ../images/compare.png
+:class: col-page-right
 :width: 100%
 :align: center
 

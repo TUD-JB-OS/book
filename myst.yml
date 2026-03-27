@@ -37,6 +37,9 @@ site:
     logo_dark: style/tudelft-dark.png
     folders: true
 
+  parts:
+    footer: style/footer.md
+
   nav:
     - title: Introduction
       url: /content/general/intro

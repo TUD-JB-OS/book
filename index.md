@@ -19,7 +19,7 @@ no-update-date: true
 
 a comprehensive resource for educators, researchers, and students
 
-{button}`Check our latest book publication <https://tudelft.nl>`
+{button}`Make your own project with the starterkit <https://tud-jb-os.github.io/starterkit/>`
 
 ![](style/cover3.png)
 

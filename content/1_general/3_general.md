@@ -51,8 +51,8 @@ With Jupyter Book, you can process data and fully show the analysis online whils
 
 +++{"no-pdf": true}
 ```{code-cell} python
-:linenos:
 :tag: hide-input
+
 x = 2
 y = 5
 
@@ -64,8 +64,8 @@ It allows you to do calculations where the output value is used in the text - li
 
 +++{"no-pdf": true}
 ```{code-cell} python
-:linenos:
 :tag: hide-input
+
 input_x = 2.034
 output_y = input_x**2
 ```
@@ -74,7 +74,6 @@ output_y = input_x**2
 Where we use {eval}`output_y` in the text to show the output value. Note that the output is visible on the website, but if you inspect the pdf version, you will see that the code is hidden.
 
 ```{code-cell} python
-:linenos:
 :tag: hide-input
 
 import numpy as np
@@ -111,4 +110,18 @@ We created a **manual** and **instruction videos** that help you understand what
 
 We tested our workflow with **multiple users** and got feedback on the user-friendliness and the design of the templates.
 
+````{figure}
+:label: gen_cover_vs_landing
 
+```{figure} ../images/BSc_landingpage.jpg
+:label: landingpage
+:alt: figure showing the landing page of the website
+The landing page of the website.
+```
+```{figure} ../images/BSc_coverpage.jpg
+:label: coverpage
+:alt: figure showing the cover page of the pdf version
+The cover page of the pdf version.
+```
+Converting the website landing page to a pdf coverpage
+```` 

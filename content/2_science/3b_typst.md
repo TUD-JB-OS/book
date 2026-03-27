@@ -13,7 +13,7 @@ For bachelor / master thesis we created a template utilizing [Typst](https://typ
 Although the template comes with default settings that already let your thesis look professional, you can customize the output by changing the `typst_config.yml` file. In this file you can specify which content to include in the export, how to style the document and how to layout the pages. Below you find the `typst_config.yml` file with the defaults settings and explanations of the different options.
 
 ```{code} yml
-:linenos:
+
 :filename: typst_config.yml
 version: 1
 project:

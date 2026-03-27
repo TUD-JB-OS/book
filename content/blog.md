@@ -6,7 +6,7 @@ author: null
 **13-03-2026** We got our first master student willing to jump into the project and try building their thesis with Jupyter Book. We are very excited to see how he will experience the process and what feedback we will get.
 
 **07-03-2026** We created an automated errorlog report when building a pdf. We use GitHub actions to check whether there are anu errors, and if so, put them in a markdown file and report them only on the website.
-```{figure} content/images/errorlog.png
+```{figure} images/errorlog.png
 :width: 70%
 ```
 
@@ -16,7 +16,7 @@ author: null
 
 
 **03-02-2026** We made major progress with our [Typst template](https://github.com/TUD-JB-OS/typst_template). The cover page has significantly improved.
-```{figure} content/images/typst_frontpage.png
+```{figure} images/typst_frontpage.png
 :width: 70%
 ```
 
@@ -26,7 +26,7 @@ author: null
 **31-01-2026** A milestone again: we developed a [starterkit](https://github.com/TUD-JB-OS/starterkit). This is a template repository that can be cloned with a few clicks. It then automatically creates a GitHub website and builds two different pdf's from your content with every new submission to your repository. This lowers the technical barrier significantly!
 
 **29-01-2026** We did an official kick-off meeting with the team. Due to illness, holidays and general busy schedules, not everyone could be there, but we had a good start. 
-```{figure} content/images/kickoff.png
+```{figure} images/kickoff.png
 :width: 70%
 ```
 

@@ -22,6 +22,9 @@ project:
       - file: content/1_general/6_accessibility.md
       - file: content/1_general/8_cheatsheet.md
       - file: content/1_general/9_landingpage.md
+      - file: content/1_general/10_settings.md
+      - file: content/1_general/11_agreement.md
+      - file: content/1_general/resources.md
 
     - title: Scientific publishing
       children: 
@@ -42,4 +45,5 @@ project:
       - file: content/3_education/1_intro.md
       - file: content/3_education/2_workflow.md
     
+    - file: content/gallery.md
     - file: content/blog.md

@@ -23,7 +23,7 @@ variables
 ```{code} yml 
 :filename: .gitlab-ci.yml
 :label: ci-for-gitlab-tudserver
-:linenos:
+
 :caption: .gitlab-ci.yml for TU server deployment
 
 stages:
@@ -81,7 +81,7 @@ The building of all branches is recommended as it allows to preview the changes 
 ```{code} yml
 :filename: .gitlab-ci.yml
 :label: ci-for-gitlab-externalserver
-:linenos:
+
 :caption: .gitlab-ci.yml for external server deployment
 :dropdown: true
 

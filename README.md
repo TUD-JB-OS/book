@@ -40,6 +40,10 @@ You are free to:
 - Luuk Fröling
 - Ronald Ligteringen
 
+## 🙏 Acknowledgements
+
+We acknowledge Mathijs van den Doel as one of the first users of our workflow and starterkit. We have used his early work as a way to improve our workflow and templates.
+
 ## 🤝 How to contribute
 
 We welcome contributions to this project. Whether you are a students willing to explore and provide feedback to our workflow, a developer working on Jupyter Book or a researcher in need of both writing for a scientific paper whilst simultaneously publishing your work online for a wider audience... 
