@@ -96,3 +96,23 @@ project:
 | **title_page_image_dx_cm** | number | `0` | Horizontal offset of title page image in centimeters |
 | **title_page_image_dy_cm** | number | `-3.0` | Vertical offset of title page image in centimeters | 
 
+
+
+# Nabewerking, bijv fig wrap
+
+#grid(
+  columns: (1fr, auto),
+  gutter: 1em,
+
+  [
+    tekst
+  ], 
+ [
+    #align(right)[
+      #image(
+        "files/auth_Ed-5e2e5ab8189f6f24e1c2089183933aeb.jpg",
+        width: 4cm,
+      )
+    ]
+  ],
+)

@@ -62,13 +62,11 @@ This will start a local server and open the book in your web browser.
 ├──┐ root
    ├── myst.yml             # Jupyter Book configuration & Table of contents
    ├── index.md             # landing page
-   ├── blog.md              # blog with updates on the project
    |── README.md            # this file
-   |── export.yml           # export configuration for exporting to pdf
    |── toc.yml              # table of contents for the book
-
    ├──┐ content/
       ├── credits.md       # Book introduction
+      ├── blog.md              # blog with updates on the project
       ├──┐ 1_general/       
          ├── ...           # Chapters on JupyterBook and editing
       ├──┐ 2_science/        
@@ -76,11 +74,11 @@ This will start a local server and open the book in your web browser.
       ├──┐ 3_education/        
          ├── ...           # Chapters on writing and publishing educational content
       ├──┐ images/
-         ├── ...           # images
-      
+         ├── ...           # images      
    |──┐ style/
          ├── ...           # custom CSS and brands 
-
+   |──┐ export
+      |── export.yml           # export configuration for exporting to pdf
 ```
 
 ## 📧 Contact

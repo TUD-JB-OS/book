@@ -9,6 +9,10 @@ authors:
 --- 
 > In this section...
 
+
+NOTIFY THAT AUTOMATIC PDF IS NOT AUTOMATIC BUT MUST BE TRIGGERED MANUALLY.
+
+
 ## Bachelor and Master Theses
 
 A [TUD LaTeX template](https://github.com/TUD-JB-OS/latex_template) can be used to convert your theses markdown files into a PDF format. The template provides a ready-made structure, customisable settings, and optional elements like a cover image or logo. 

@@ -12,3 +12,5 @@ site:
 
 ```{embed} xref:WS#landingpage
 ```
+
+Landing page does not end up in your pdf!

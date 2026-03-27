@@ -9,3 +9,6 @@ authors:
 --- 
 
 > In this section...
+
+
+Explain references and how it does or does not affect pdf / website

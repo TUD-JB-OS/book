@@ -6,7 +6,7 @@ project:
   description: This is a manual for open publishing with JupyterBook (2) for Delft University of Technology.
   keywords: [Jupyter Book; Open Publishing; Open Education; Open Science]
   github: https://github.com/TUD-JB-OS/book
-  date: 2025-01-01
+  date: 2026-01-01
   plugins:
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
   
@@ -24,7 +24,7 @@ project:
 
 extends:
   - authors.yml
-  # - export.yml
+  # - export/export.yml
   - toc.yml
 
 site:
