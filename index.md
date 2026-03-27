@@ -62,21 +62,6 @@ See and use the LaTeX thesis template to build your own thesis with LaTeX
 ```
 
 ```{card}
-:header: 📚 Gallery
-:link: https://luukfroling.github.io/BEP
-
-See a collection of TU Delft thesis written with JupyterBook.
-```
-
-
-```{card}
-:header: 🌅 TUD Interactive textbooks
-:link: https://books.open.tudelft.nl/home/catalog/category/interactive-textbooks
-
-See the collection of interactive textbooks published by TU Delft
-```
-
-```{card}
 :header: ❔ Questions?
 :url: mailto:c.f.j.pols@tudelft.nl
 

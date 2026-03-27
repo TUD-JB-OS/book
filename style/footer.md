@@ -7,14 +7,15 @@ no-update-date: true
 
 ::::{div}
 
-# Made available by:
+# Made with:
 
 ```{image} https://jupyterbook.org/en/stable/_images/logo-square.svg
 :width: 50px
 :align: left
 ```
 
-Want your own project? Visit our [starterkit](https://github.com/TUD-JB-OS/starterkit)
+Want your own project?  
+Visit our [starterkit](https://github.com/TUD-JB-OS/starterkit)
 ::::
 
 
@@ -34,6 +35,7 @@ Want your own project? Visit our [starterkit](https://github.com/TUD-JB-OS/start
 - [Help](mailto:c.f.j.pols@tudelft.nl)
 - [Jupyter](https://jupyterbook.org/)
 - [TU Delft](https://tudelft.nl)
+- [TUD Interactive textbooks](https://books.open.tudelft.nl/home/catalog/category/interactive-textbooks)
 :::
 
 :::{div}

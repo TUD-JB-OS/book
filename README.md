@@ -73,9 +73,9 @@ This will start a local server and open the book in your web browser.
       ├── blog.md              # blog with updates on the project
       ├──┐ 1_general/       
          ├── ...           # Chapters on JupyterBook and editing
-      ├──┐ 2_science/        
+      ├──┐ 3_science/        
          ├── ...           # Chapters on writing and publishing scientific content
-      ├──┐ 3_education/        
+      ├──┐ 4_education/        
          ├── ...           # Chapters on writing and publishing educational content
       ├──┐ images/
          ├── ...           # images      

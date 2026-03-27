@@ -3,6 +3,8 @@ title: Blog
 
 author: null
 ---
+**27-03-2026** We have made some progress. One of the major things done is get access to a TU Delft virtual server using the url https://jboss.tudelft.nl. We will move our main page to there to comply to FAIR principles and to make it more accessible for everyone. 
+
 **13-03-2026** We got our first master student willing to jump into the project and try building their thesis with Jupyter Book. We are very excited to see how he will experience the process and what feedback we will get.
 
 **07-03-2026** We created an automated errorlog report when building a pdf. We use GitHub actions to check whether there are anu errors, and if so, put them in a markdown file and report them only on the website.

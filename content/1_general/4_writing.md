@@ -1,6 +1,6 @@
 ---
 title: Writing, editing and storing content
-short_title: Editing
+short_title: Tools for editing
 # subtitle: 
 authors:
     - id: FreekPols

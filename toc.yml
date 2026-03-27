@@ -11,39 +11,42 @@ project:
       - file: content/1_general/3_general.md
       - file: content/1_general/4_writing
         children:
-          - file: content/1_general/4_githubIDE.md
-          - file: content/1_general/4_local.md
-          - file: content/1_general/4_overleaf.md
-          - file: content/1_general/4_juplab.md
-          - file: content/1_general/4_wysiwyg.md
+        - file: content/1_general/4_githubIDE.md
+        - file: content/1_general/4_local.md
+        - file: content/1_general/4_overleaf.md
+        - file: content/1_general/4_juplab.md
+        - file: content/1_general/4_wysiwyg.md
       - file: content/1_general/5_publishing.md
         children:
-          - file: content/1_general/5_gitlab.md
-      - file: content/1_general/6_accessibility.md
-      - file: content/1_general/8_cheatsheet.md
-      - file: content/1_general/9_landingpage.md
-      - file: content/1_general/10_settings.md
-      - file: content/1_general/11_agreement.md
+        - file: content/1_general/5_gitlab.md
       - file: content/1_general/resources.md
 
-    - title: Scientific publishing
+    - file: content/2_getstarted/1_intro.md
+      children:
+      - file: content/2_getstarted/6_accessibility.md
+      - file: content/2_getstarted/8_cheatsheet.md
+      - file: content/2_getstarted/9_landingpage.md
+      - file: content/2_getstarted/10_settings.md
+      - file: content/2_getstarted/11_agreement.md
+      
+
+
+    - file: content/3_science/1_intro
       children: 
-      - file: content/2_science/1_intro
-      - file: content/2_science/2_workflow
+      - file: content/3_science/2_workflow
         children:  
-        - file: content/2_science/2b_github.md
-      - file: content/2_science/6_analysis.ipynb
- 
-      - file: content/2_science/3_export
+        - file: content/3_science/2b_github.md
+      - file: content/3_science/6_analysis.ipynb
+      - file: content/3_science/3_export
         children:
-        - file: content/2_science/3a_latex.md
-        - file: content/2_science/3b_typst.md
-      - file: content/2_science/7_publishingdata.md
+        - file: content/3_science/3a_latex.md
+        - file: content/3_science/3b_typst.md
+      - file: content/3_science/7_publishingdata.md
 
     - title: Educational publishing
-      children: 
-      - file: content/3_education/1_intro.md
-      - file: content/3_education/2_workflow.md
+    - file: content/4_education/1_intro.md
+      children:       
+      - file: content/4_education/2_workflow.md
     
     - file: content/gallery.md
     - file: content/blog.md

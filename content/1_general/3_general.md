@@ -10,20 +10,10 @@ kernelspec:
   display_name: 'Python 3'
 --- 
 
-<!-- Imagine that you have worked on code, created a prototype, or made a molecule or enzyme where its structure is crucial... and then your supervisor requires you to hand in a static pdf only... much of your efforts is not conveyed through this use of media. What if there is a better way? A way that shows what you actually have done and accomplished and even let the reader interact with it, for instance by looking the molecule from different angles, play with the code to see how it works, or inspect the prototype in 3D. And what if you still create a beautiful but static pdf version of your report, but without the need of any additional effort.  
-We have created a workflow and a template that allows you to do so. For this, we used Jupyter Book - an open source tool that allows you to create beautiful, interactive, and dynamic books and reports using Jupyter Notebooks and Markdown. It allows you to combine text, interactive code and data-analysis, and multimedia content in a single document that can be easily shared and published, both as online website and pdf.
-Using our starterkit, you are equipped with a working website that automatically generates a good looking pdf with every update. You can easily add content, references, analysis, and share it with your supervisor (or the world). The template is designed to be user-friendly and easy to use, you can design it to your own preferences. 
-Moreover, we created a manual that helps you with creating interactive content.
-Interested in learning how to use it, or already exited to setup your own repo? Visit ...
+- [ ] instruction video  
+- [ ] interactive graph  
+- [ ] pdf output  
 
--->
-
-```{note} to do
-- instruction video
-- printscreen of pdf and website
-- interactive graph
-- pdf output
-```
 > Here we briefly described our intends and why we think Jupyter Book is great to achieve this.
 
 This book already shows how Jupyter Book can be used to create a clear report that combines text and multimedia content. To get an even better idea of what is possible, see this [video](#JB-publish-video).
@@ -31,7 +21,7 @@ This book already shows how Jupyter Book can be used to create a clear report th
 (whyJB)=
 ## Why Jupyter Book?
 
-Our idea is to engage young academics, starting from bachelors' students, in open science - being transparent about their data and data-processing and sharing their work openly with others. [Jupyter Book](https://jupyterbook.org/) is a great tool for this as it allows to write, code, and publish scientific articles, theses, and textbooks in a single environment. Using the Abstract Syntax Tree (AST), conversion from different format is possible and does not require additional effort.
+Our idea is to engage young academics, starting from bachelors' students, in open science - being transparent about their data and data-processing and sharing their work openly with others. Moreover, we believe that a thesis and the work that was done is much more than a 2D pdf: 3D models, interactive code, and multimedia content can be part of the work done - where the 2D pdf is meant for the archive. [Jupyter Book](https://jupyterbook.org/) is a great tool for this as it allows to write, code, and publish scientific articles, theses, and textbooks in a single environment. Using the Abstract Syntax Tree (AST), conversion from different format is possible and does not require additional effort.
 
 ```{figure} ../images/AST.png
 :alt: figure showing that the markdown files can be converted to a pdf and website using the AST
@@ -97,6 +87,9 @@ interact(update, a=widgets.FloatSlider(min=-2, max=3, step=0.1, value=1))
 
 ```
 
+```{tip} Interactive content
+The code above is interactive: click the ON button and subsequently the play button to run the code and interact with it.
+```
 
 
 (whatwedid)=
@@ -112,16 +105,19 @@ We tested our workflow with **multiple users** and got feedback on the user-frie
 
 ````{figure}
 :label: gen_cover_vs_landing
+:class: grid grid-cols-2 items-end gap-2
 
 ```{figure} ../images/BSc_landingpage.jpg
 :label: landingpage
 :alt: figure showing the landing page of the website
+
 The landing page of the website.
 ```
 ```{figure} ../images/BSc_coverpage.jpg
 :label: coverpage
 :alt: figure showing the cover page of the pdf version
+
 The cover page of the pdf version.
 ```
-Converting the website landing page to a pdf coverpage
+Converting the website landing page to a pdf cover page
 ```` 
