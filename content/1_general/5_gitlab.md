@@ -1,4 +1,14 @@
-# GitLab and TU server
+---
+title: Hosting with GitLab pages
+short_title: GitLab pages
+# subtitle: Using the GitHub Integrated Development Environment to write and edit content
+authors:
+    - id: FreekPols
+    - id: RonaldLigteringen
+
+--- 
+
+# GitLab pages
 
 There are (at least) two options for hosting your Jupyter Book through GitLab:
 1. Using GitLab CI to deploy to an external server (e.g. TU server)
