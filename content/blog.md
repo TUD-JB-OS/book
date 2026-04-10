@@ -3,6 +3,8 @@ title: Blog
 
 author: null
 ---
+**10-04-2026** We have made the server ready for webhosting. In the following days we will work on migrating the materials to the server.
+
 **27-03-2026** We have made some progress. One of the major things done is get access to a TU Delft virtual server using the url https://jboss.tudelft.nl. We will move our main page to there to comply to FAIR principles and to make it more accessible for everyone. 
 
 **13-03-2026** We got our first master student willing to jump into the project and try building their thesis with Jupyter Book. We are very excited to see how he will experience the process and what feedback we will get.
