@@ -1,6 +1,6 @@
 ---
-title: Hosting with TU Delft webserver
-short_title: TUD server
+title: Hosting with TU Delft webserver 🌶
+short_title: TUD server 🌶
 # subtitle: Using the GitHub Integrated Development Environment to write and edit content
 authors:
     - id: FreekPols

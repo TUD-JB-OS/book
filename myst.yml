@@ -51,7 +51,7 @@ site:
         url: /content/science/intro
       - title: Educational publishing
         url: /content/education/intro
-    - title: Starterkit
+    - title: Starter kit
       url: https://jboss.tudelft.nl/starterkit
     - title: Templates
       url: https://jboss.tudelft.nl/templates/
