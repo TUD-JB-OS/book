@@ -13,8 +13,17 @@ authors:
 Publishing here is meant as the dissemination of the content you have created in your Jupyter Book project to the public in a visualized way - e.g. not being only the source code. We will discuss only two formats: static html and pdf. Note that there are more ways to publish your content, e.g. through [curvenote](https://curvenote.com/) allowing for a dynamic build of the site.
  
 ## Interactive website
-You can 
+You can publish your work as a fully functional interactive website where you have the option to include multimedia, interactive python code and so on.
 
+
+```{iframe} ../images/Octatube_Steel.html
+
+Interactive picture taken from https://github.com/TeachBooks/vademecum
+```
+
+```{warning}
+Discuss with your supervisor which option for dissemination for online publishing fits best for your project.
+```
 
 ## Static pdf
 

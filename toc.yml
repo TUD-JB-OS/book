@@ -9,7 +9,7 @@ project:
       children:
       - file: content/1_general/2_about.md
       - file: content/1_general/3_general.md
-      - file: content/1_general/4_writing
+      - file: content/1_general/4_writing.md
         children:
         - file: content/1_general/4_local.md
         - file: content/1_general/4_githubIDE.md        
@@ -34,13 +34,13 @@ project:
       
 
 
-    - file: content/3_science/1_intro
+    - file: content/3_science/1_intro.md
       children: 
-      - file: content/3_science/2_workflow
+      - file: content/3_science/2_workflow.md
         children:  
         - file: content/3_science/2b_github.md
       - file: content/3_science/6_analysis.ipynb
-      - file: content/3_science/3_export
+      - file: content/3_science/3_export.md
         children:
         - file: content/3_science/3a_latex.md
         - file: content/3_science/3b_typst.md
