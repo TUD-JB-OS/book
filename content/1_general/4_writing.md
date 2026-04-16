@@ -14,50 +14,53 @@ There are multiple ways to write, edit and store content for Jupyter Book projec
 In the table below, we have summarized various possibilities, specified the requirements and highlighted their pros and cons. 
 In the next chapters, each of these options is elaborated on, providing step-by-step instructions to get started.
 
+```{warning} Discuss with your supervisor
+If you are using this workflow for writing, discuss with your supervisor where to store your source files and *if* you can make the data open accessible from the start.
+```
 
-## Storing
+## Storing source files
 
 ````{tab-set}
 ```{tab-item} Local
-Description:  
+**Description:**  
 You can write, edit and store your source files locally. 
 If you want to see the output of the content in either web- or pdf-format, you'll need to have installed software (see below).
 
-Pros:
+**Pros:**
 - Not visible to outside world when in development
 - Not supporting big tech with feeding data
 
-Cons:
+**Cons:**
 - Not available to others
 - Back ups not automated
 - No version control
 ```
 
 ```{tab-item} GitHub
-Description:  
-GitHub is a platform especially for software developers. 
-It is owned by MicroSoft.
+**Description:**  
+GitHub is a platform especially for software developers. It is owned by MicroSoft.
 
-Pros:
+**Pros:**
 - Version control
 - Automated deploy of files
 - No local software install required
 - Well documented/support
 
-Cons:
+**Cons:**
 - Big Tech
-- 
+- No support by university
 ```
 
 ```{tab-item} GitLab
-Description: 
+**Description:** 
+GitLab is the 'free' version of GitHub.
 
-Pros:
+**Pros:**
 - Version control
 - Automated deploy of files
 - No local software install required
 
-Cons:
+**Cons:**
 - Functionality depends on university (and even faculty level)
 - Less documented than GitHub.
 
@@ -69,65 +72,93 @@ Here we merely summarize the different ways of writing and editing your content.
 Information for how to use / enable it is covered in the subsequent chapters.
 
 ````{tab-set}
-```{tab-item} Local with VSC
+```{tab-item} Local (VSC)
 You can edit your project on your local machine. 
 
-|requirements|pros|cons|
-|---|---|---|
-|python|Full control over project and environment | Requires installation and setup |
-|JB|Works offline| Easy to use extensions for writing and editing|
-|Node| | |
-|code editor (e.g., VS Code)| Not visible to others until deployed|
+**Requirements:**
+- Python installation
+- JupyterBook
+- [NodeJS](https://nodejs.org/en/download)
+- Code editor (e.g. VS Code)
+
+|pros|cons|
+|---|---|
+|Full control over project and environment | Requires installation and setup |
+|Works offline| Easy to use extensions for writing and editing|
+| Not visible to others until deployed| |
 
 ```
 
-```{tab-item} Web editor 
-If you work with GitHub, you can use the GitHub {abbr}`IDE`.
+```{tab-item} GitHub Web editor 
+If you work with GitHub, you can use the GitHub {abbr}`IDE(Integrated Development Environment)`.
 
-|requirements|pros|cons|
-|---|---|---|
-|GitHub account|No installation required|Little inconvenient with including new files |
-|Deploy file | | |
-|Internet connection|Accessible from any device with internet|Dependent on internet connection|
+**Requirements:**
+- GitHub account
+- Deploy file
+- Internet connection
+
+|pros|cons|
+|---|---|
+|No installation required|Little inconvenient with including new files |
+|Accessible from any device with internet|Dependent on internet connection|
 
 ```
 
 ```{tab-item} Overleaf 
+An option is to connect [overleaf](https://overleaf.org) with GitHub and use .tex files.
 
-|requirements|pros|cons|
-|---|---|---|
-|Overleaf account|What you see is what you get editor | .tex files only (in basic version) |
-|See GitHub web editor|LaTeX pdf | |
-| |Integrated text AI |Dependent on internet connection|
+**Requirements:**
+- Overleaf account
+- See GitHub web editor
+
+|pros|cons|
+|---|---|
+|What you see is what you get editor | .tex files only (in basic version) |
+|LaTeX pdf | |
+|Integrated text AI |Dependent on internet connection|
 ```
 
 ```{tab-item} Jupyter Lab 
-|requirements|pros|cons|
-|---|---|---|
-|Jupyter Lab|.ipyb and .md files | Requires installation and setup |
-|MyST extension |
+**Requirements:**
+- Jupyter Lab
+- See Local with VSC
+- [MyST extension](https://mystmd.org/guide/quickstart-jupyter-lab-myst#install-jupyterlab-myst)
+
+|pros|cons|
+|---|---|
+|.ipyb and .md files | Requires installation and setup |
 
 ```
 
 ```{tab-item} GitLab
+GitLab is like GitHub but not owned by Microsoft. It has an IDE.
+
+**Requirements:**
+- GitLab account
+- Gitlab CI/CD file
+- Internet connection
+
 GitLab is advised at various Universities for multiple reasons. 
 One is digital soverenity: the servers where the source files are stored are located at the campus.
 The other is that an additional back-up is made which can be accessed by people from the university.
 
 
-|requirements|pros|cons|
-|---|---|---|
-|GitLab account|No installation required| Not automatic deployed |
-|gitlab.ci | | |
-|Internet connection|Accessible from any device with internet|Dependent on internet connection|
+|pros|cons|
+|---|---|
+|No installation required| Not automatic deployed |
+|Accessible from any device with internet|Dependent on internet connection|
 ```
 
-```{tab-item} WYSIIWYG editor
+```{tab-item} WYSIWYG editor
+We have built an online {abbr}`WYSIWYG (what you see is what you get)` that works with GitHub. 
 
+**Requirements**
+- Personal access token
+- See GitHub
 
-|requirements|pros|cons|
-|---|---|---|
-|Key|No installation required|  |
-|Internet connection|Accessible from any device with internet|Dependent on internet connection|
+|pros|cons|
+|---|---|
+|No installation required|  |
+|Accessible from any device with internet|Dependent on internet connection|
 ```
 ````

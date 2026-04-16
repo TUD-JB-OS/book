@@ -12,10 +12,14 @@ authors:
 
 Publishing here is meant as the dissemination of the content you have created in your Jupyter Book project to the public in a visualized way - e.g. not being only the source code. We will discuss only two formats: static html and pdf. Note that there are more ways to publish your content, e.g. through [curvenote](https://curvenote.com/) allowing for a dynamic build of the site.
  
-## web
+## Interactive website
+You can 
 
 
-## pdf
+## Static pdf
+
+## Workflow
+
 
 
 ### Final tweaks with typst

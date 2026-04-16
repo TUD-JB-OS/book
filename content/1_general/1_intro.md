@@ -9,5 +9,4 @@ At Delft University of Technology (TUD), people started using Jupyter Book to cr
 
 With the introduction of Jupyter Book 2, the opportunity arose to create scientific content (e.g., research articles, theses, reports) in addition to educational content. As new technologies are adopted when the benefits are clear and the barriers are low, we applied for the [TUD's Open Science Fund](https://www.tudelft.nl/en/open-science) to explore a seemingly effortless workflow with Jupyter Book for open publishing scientific content. This grant was awarded in October 2025.
 
-This guide is the result of this project. We aim to help (TU Delft) researchers and educators to create, publish, and share open educational and scientific resources with Jupyter Book. The guide covers the entire workflow from installation, content creation, and customization to publishing and sharing.
-
+This guide is the result of this project. We aim to help (TU Delft) students, researchers and educators to create, publish, and share open educational and scientific resources with Jupyter Book. The guide covers the entire workflow from installation, content creation, and customization to publishing and sharing.

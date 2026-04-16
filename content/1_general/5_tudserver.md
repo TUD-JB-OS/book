@@ -55,6 +55,52 @@ We are now ready with setting up the server, but need to secure it.
 
 If you decided to maintain your server yourself, you will need to regularly check for updates and security patches. This can be done by running `apt update` and `apt upgrade`. You can also set up automatic updates by running `apt install unattended-upgrades` and configuring it to your needs.
 
+## Change start dir
+
+Apache has set the home folder to `var/www` where we want it to be `home/web`. Using the terminal:
+
+1. Run `sudo nano /etc/apache2/sites-available/000-default.conf`
+
+2. Change `DocumentRoot /var/www/html` to `DocumentRoot /home/web`.
+
+3. Add: 
+
+```{code-block} apache
+<Directory /home/web>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Require all granted
+</Directory>
+```
+
+4. Save the changes `Ctrl+O, Enter, Ctrl+X` and run `sudo systemctl restart apache2`
+
+5. Follow steps 2-4 after: `sudo nano /etc/apache2/sites-available/default-ssl.conf`
+
+6. Run
+```{code-block} bash
+sudo a2ensite default-ssl.conf
+sudo a2enmod ssl
+sudo systemctl reload apache2
+```
+
+7. Check whether `Syntax OK` is shown after running: `sudo apache2ctl configtest`, else: `sudo systemctl restart apache2`
+
+## Request SSL-certificate
+We need to request an SSL-certificate:
+
+```{code-block} bash
+sudo apt update
+sudo apt install certbot python3-certbot-apache
+sudo certbot --apache -d <server>
+```
+
+and test:
+```{code-block} bash
+sudo apache2ctl configtest
+sudo systemctl reload apache2
+```
+
 ### Useful linux commands
 |command | |
 | --- | --- |

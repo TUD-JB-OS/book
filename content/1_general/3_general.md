@@ -10,10 +10,6 @@ kernelspec:
   display_name: 'Python 3'
 --- 
 
-- [ ] instruction video  
-- [ ] interactive graph  
-- [ ] pdf output  
-
 > Here we briefly described our intends and why we think Jupyter Book is great to achieve this.
 
 This book already shows how Jupyter Book can be used to create a clear report that combines text and multimedia content. To get an even better idea of what is possible, see this [video](#JB-publish-video).
@@ -61,7 +57,11 @@ output_y = input_x**2
 ```
 +++ 
 
-Where we use {eval}`output_y` in the text to show the output value. Note that the output is visible on the website, but if you inspect the pdf version, you will see that the code is hidden.
+Where we use {eval}`output_y` in the text to show the output value. Note that the output is visible on the website, but if you inspect the pdf version, you will see that the code is hidden. 
+
+```{warning}
+The `eval` functionality 'only' works when the website is build using 'myst build --html --execute'.
+```
 
 ```{code-cell} python
 :tag: hide-input
@@ -80,7 +80,9 @@ def update(a):
     fig, (ax1,ax2) = plt.subplots(1,2)
     ax1.plot(x, y, 'k.')
     ax1.plot(x, a*x, 'r--')
+    ax1.set_ylabel('y')
     ax2.plot(x, (y-a*x)**2, 'k.')
+    ax2.set_ylabel('Residual')
     plt.show()
 
 interact(update, a=widgets.FloatSlider(min=-2, max=3, step=0.1, value=1))
@@ -103,9 +105,10 @@ We created a **manual** and **instruction videos** that help you understand what
 
 We tested our workflow with **multiple users** and got feedback on the user-friendliness and the design of the templates.
 
+
 ````{figure}
 :label: gen_cover_vs_landing
-:class: grid grid-cols-2 items-end gap-2
+:class: grid grid-cols-2 gap-2 items-end
 
 ```{figure} ../images/BSc_landingpage.jpg
 :label: landingpage

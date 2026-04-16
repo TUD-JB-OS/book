@@ -69,20 +69,22 @@ This will start a local server and open the book in your web browser.
    |── README.md            # this file
    |── toc.yml              # table of contents for the book
    ├──┐ content/
-      ├── credits.md       # Book introduction
-      ├── blog.md              # blog with updates on the project
+      ├── credits.md        # Book introduction
+      ├── blog.md           # blog with updates on the project
       ├──┐ 1_general/       
-         ├── ...           # Chapters on JupyterBook and editing
+         ├── ...            # Chapters on JupyterBook and editing
+      ├──┐ 2_getstarted
+         ├── ...            # Chapters on how to quickstart your project
       ├──┐ 3_science/        
-         ├── ...           # Chapters on writing and publishing scientific content
+         ├── ...            # Chapters on writing and publishing scientific content
       ├──┐ 4_education/        
-         ├── ...           # Chapters on writing and publishing educational content
+         ├── ...            # Chapters on writing and publishing educational content
       ├──┐ images/
-         ├── ...           # images      
+         ├── ...            # images      
    |──┐ style/
-         ├── ...           # custom CSS and brands 
+         ├── ...            # custom CSS and brands 
    |──┐ export
-      |── export.yml           # export configuration for exporting to pdf
+      |── export.yml        # export configuration for exporting to pdf
 ```
 
 ## 📧 Contact
