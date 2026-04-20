@@ -77,5 +77,5 @@ some instructions for gitlab
 
 (WYS-knownlimitations)=
 ## Known limitations
-
+JupyterBook is actively being developed. Not all functionalities are included in the editor. Moreover, there are known issues with embedding iframes. Still, the editor is great for writing text and directly see it in the browser.
 

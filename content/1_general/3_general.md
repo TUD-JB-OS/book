@@ -14,6 +14,36 @@ kernelspec:
 
 This book already shows how Jupyter Book can be used to create a clear report that combines text and multimedia content. To get an even better idea of what is possible, see this [video](#JB-publish-video).
 
+(forstudents)=
+## Note for students
+
+Your bachelor or master thesis is more than a static PDF you submit. Maybe you made an enzyme where its 3D structure is key, built a 3D model, developed code, worked on an optimization problem, or designed something interactive. Yet in the end, all of that often gets flattened into a 2D document that can’t fully show what you’ve created.
+What if your reader could actually interact with your work?
+- Explore your 3D models from different angles 
+- Run your code or simulations 
+- Adjust variables and see how results change 
+- Watch embedded videos or demos (e.g. YouTube clips) 
+Even better: what if you could share that same interactive version when applying for jobs? At TU Delft, we’re working on a workflow that lets you do exactly this - without extra effort.
+
+We created a workflow that produces both a static, high-quality pdf and an interactive website for your thesis, without additional work! The TUD guide to open publishing with JupyterBook provides a starter kit where your thesis is a website made in less than 5 minutes and automatically a high-quality pdf is created for the committee. 
+
+## Note for supervisors
+
+What if the theses you supervise(d) didn’t just live as separate PDFs, but could be brought together into a coherent, evolving portfolio? What if a thesis could be easily adapted into a scientific article—where data analysis, code, and results remain fully reproducible and extendable within the same workflow? And what if you could gain clearer insight into your student’s progress, with narrative, code, models, and results all integrated in a single, accessible environment?
+
+At TU Delft, we are developing a workflow that makes this possible—without adding extra workload. Using JupyterBook, a thesis can simultaneously be:
+- a static, high-quality PDF for formal assessment
+- an interactive website where code, data, and multimedia are directly accessible
+- a version-controlled project, enabling structured feedback, transparent progress tracking, and easier supervision over time
+
+This approach also enables reuse: figures, text, and analysis can be efficiently carried across projects, publications, or future student work.
+
+For your students, the TU Delft JupyterBook guide provides a starter kit that allows them to set up a thesis website in minutes, while automatically generating a high-quality PDF for the committee.
+
+```{note} 
+The workflow is already fully usable, and we are continuously refining the documentation and supporting materials.
+```
+
 (whyJB)=
 ## Why Jupyter Book?
 
@@ -124,3 +154,8 @@ The cover page of the pdf version.
 ```
 Converting the website landing page to a pdf cover page
 ```` 
+
+
+(whattoconsider)=
+## What to consider
+There are many considerations and decisions related to your work and for instance data storage and confidentiallity. If you want to make a public website, or use this workflow anyway, check the [code of conduct](../3_science/11_agreement.md), sit with your supervisor and agree on the decisions.

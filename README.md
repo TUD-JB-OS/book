@@ -3,11 +3,13 @@
 
 ## 📖 Use the manual
 
-For this project we created a manual, a starterkit, and two templates for static output. This manual describes everything you need to know (and more) about writing and publishing a bachelor or master thesis with Jupyter Book - at least to kickstart it, and about writing and publishing a scientific paper through Jupyter Book. We also elaborate on planning, writing and publishing educational content with Jupyter Book. 
+For this project we created a manual, a starterkit, and two templates for static output. This manual describes everything you need to know (and probably much more than you need to know) about writing and publishing a bachelor or master thesis with Jupyter Book - at least to kickstart it, and about writing and publishing a scientific paper through Jupyter Book. 
+<!--We also elaborate on planning, writing and publishing educational content with Jupyter Book. 
+-->
 
 ## 🕵 Where to start 
 
-Already know about Jupyter Book, familiar with GitHub or GitLab, Markdown... start with cloning the starterkit and start writing your own book. New to the ecosystem? Start with the manual, and then move on to the starterkit.
+Already know about JupyterBook, familiar with GitHub or GitLab, Markdown... start with cloning the starterkit and start writing your own book. New to the ecosystem? Start with the manual, and then move on to the starterkit.
 
 ## 🏁 Purpose
 

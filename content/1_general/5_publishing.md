@@ -11,6 +11,10 @@ authors:
 > Here we briefly described the various ways of publishing your Jupyter Book project. 
 
 Publishing here is meant as the dissemination of the content you have created in your Jupyter Book project to the public in a visualized way - e.g. not being only the source code. We will discuss only two formats: static html and pdf. Note that there are more ways to publish your content, e.g. through [curvenote](https://curvenote.com/) allowing for a dynamic build of the site.
+
+```{warning}
+Before making a public website of your thesis project, talk to your supervisor and discuss which option for dissemination for online publishing fits best for your project. Discuss any limitations using the [code of conduct](../3_science/11_agreement.md).
+```
  
 ## Interactive website
 You can publish your work as a fully functional interactive website where you have the option to include multimedia, interactive python code and so on. You can use GitHub pages, GitLab pages (if enabled) or make use of your own server.
@@ -25,9 +29,6 @@ Interactive picture taken from https://github.com/TeachBooks/vademecum
 ``` 
 -->
 
-```{warning}
-Discuss with your supervisor which option for dissemination for online publishing fits best for your project.
-```
 
 ## Static pdf
 Disseminating can also be done using a static pdf. Our workflow - using the starter kit - automatically builds a high-quality pdf using [Typst](https://typst.app/). A second pdf can be made using our LaTeX template. The making of this pdf is triggered manually. 

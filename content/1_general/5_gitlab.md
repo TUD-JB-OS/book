@@ -11,161 +11,87 @@ authors:
 # GitLab pages
 
 There are (at least) two options for hosting your Jupyter Book through GitLab:
-1. Using GitLab CI to deploy to an external server (e.g. TU server)
+1. Using GitLab CI/CD to deploy to an external server (e.g. TU Virtual Machine), see [TUD server](./5_tudserver.md)
 2. Using GitLab Pages to host the book directly on GitLab
 
 ```{note}
 GitLab pages is not enable by default for TU Delft, but https://gitlab.ewi.tudelft.nl/ has enabled GitLab pages. 
 ```
 
+GitLab Pages allows you to host static HTML files online from GitLab repositories using [GitLab CI/CD](https://docs.gitlab.com/ci/). This page includes the how-to instruction. Note that the GL starter kit includes a CI/CD script.
 
-https://gitlab.com/pages/jupyterbook
+## Instructions[^ref]
+[^ref]: This text is copied and adapted from the [MyST documentation](https://myst.org/guide) where it has been written by Freek Pols
+
+To get setup with GitLab Pages, ensure that your repository is hosted in GitLab and you are in the root of the Git repository. Create a file called `.gitlab-ci.yml` with the following content:
 
 
-`````{tab-set} 
-````{tab-item} GitLab and server
-Needs
-- runner
-- linux website with apache webserver
-keys
-variables
-
-```{code} yml 
+```{code} yaml
 :filename: .gitlab-ci.yml
-:label: ci-for-gitlab-tudserver
 
-:caption: .gitlab-ci.yml for TU server deployment
+
+image: ghcr.io/prefix-dev/pixi:latest
 
 stages:
+  - build
   - deploy
 
-image: python:3.11-slim
-
 variables:
-  SSH_COMMAND: 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o IdentitiesOnly=yes'
-  LOCAL_BUILD_DIR: "_build/html"
-  HOST: "127.0.0.1"             # prevents running local host resulting in an error
-  BASE_URL: ""                  # specify the base url, e.g. the folder from root
-  
+  PIXI_CACHE_DIR: "$CI_PROJECT_DIR/.pixi"
+  HOST: "127.0.0.1"
+
+cache:
+  paths:
+    - .pixi
+
 before_script:
-  - apt-get update
-  - apt-get install -y --no-install-recommends curl rsync openssh-client git
+  - pixi --version
 
-  # Node.js
-  - curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
-  - apt-get install -y --no-install-recommends nodejs
-  - node --version
-  - npm --version
+build:
+  stage: build
+  script:
+    # install environment from pixi.toml + pixi.lock
+    - pixi install --locked
 
-  # Python deps
-  - python -m pip install --upgrade pip
-  - pip install mystmd
-  - pip install -r requirements.txt
+    # run jupyter-book via pixi environment
+    - pixi run jupyter-book build --html
+  artifacts:
+    paths:
+      - _build/html
 
-  # SSH key laden
-  - eval "$(ssh-agent -s)"
-  - chmod 400 "$WEBSITE_UPLOAD_KEY"
-  - ssh-add "$WEBSITE_UPLOAD_KEY"
-
-deploy:
+pages:
   stage: deploy
   script:
-    # builds the book
-    - myst build --html 
-    
-    # syncs with the server
-    - rsync -ravz "${LOCAL_BUILD_DIR}/" -e "${SSH_COMMAND} -i ${WEBSITE_UPLOAD_KEY}" "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}/"
-```
-````
-````{tab-item} GitLab and GitLab Pages
-some content on gitlab pages
-```` 
-
-`````
-
-## Example from [topocondmat](https://topocondmat.org/)
-The .gitlab-ci.yml below is a second example of how to deploy to an external server. It uses the pixi tool to manage dependencies and caching, which can speed up the build process. It also includes some additional features, such as deploying branch websites and allowing manual stopping of those branch websites.
-
-The building of all branches is recommended as it allows to preview the changes compare to the main branch. If you are happy with the changes you can merge the branch into the main branch, which will trigger the deployment of the main website. This thus allows to fully test the functionalities of the website so that the main website is always working. 
-
-```{code} yml
-:filename: .gitlab-ci.yml
-:label: ci-for-gitlab-externalserver
-
-:caption: .gitlab-ci.yml for external server deployment
-:dropdown: true
-
-default:
-  image:
-    name: ghcr.io/prefix-dev/pixi
-  cache:
-    key: "$CI_JOB_NAME"
+    - mkdir public
+    - cp -r _build/html/* public/
+  artifacts:
     paths:
-      - .pixi
-      - _build
-  before_script:
-    - eval $(pixi shell-hook --shell bash)
-    - pixi global install git
-    - git config --global --add safe.directory $CI_PROJECT_DIR
-    - pixi install
-    - eval "$(pixi run ssh-agent -s)"
-    - chmod 400 "$WEBSITE_UPLOAD_KEY"
-    - pixi run ssh-add "$WEBSITE_UPLOAD_KEY" >/dev/null
-
-variables:
-  FF_USE_FASTZIP: "true"
-  CACHE_COMPRESSION_LEVEL: "fastest"
-  SSH_COMMAND: "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
-  JUPYTER_NUM_PROCS: "10"
-  HOST: "127.0.0.1"  # Needed to avoid binding to ::1.
-
-workflow:
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-      variables:
-        BASE_URL: "/branch_${CI_COMMIT_REF_SLUG}"
-    - if: '$CI_COMMIT_BRANCH == "master"'
-    - when: never
-
-build branch website:
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-  variables:
-    WEBSITE_UPLOAD_PATH: /branch_${CI_COMMIT_REF_SLUG}
-  environment:
-    name: branch/$CI_COMMIT_REF_SLUG
-    on_stop: stop branch website
-    url: https://topocondmat.org/branch_${CI_COMMIT_REF_SLUG}/
-  script:
-    - pixi run postprocess-html
-    - pixi run rsync -ravz _build/html/ -e "$SSH_COMMAND" uploader@tnw-qn1.tudelft.net:$WEBSITE_UPLOAD_PATH
-
-build main website:
+      - public
   only:
-    - master@qt/topocm
-  variables:
-    WEBSITE_UPLOAD_PATH: /
-  environment:
-    name: published
-    url: https://topocondmat.org/
-  script:
-    - pixi run postprocess-html
-    - pixi run rsync -ravz _build/html/ -e "$SSH_COMMAND" uploader@tnw-qn1.tudelft.net:$WEBSITE_UPLOAD_PATH
-
-stop branch website:
-  needs:
-    - build branch website
-  script:
-    - mkdir -p /tmp/empty_dir
-    - pixi run rsync -av --delete /tmp/empty_dir/ -e "$SSH_COMMAND" uploader@tnw-qn1.tudelft.net:$WEBSITE_UPLOAD_PATH/
-  when: manual
-  environment:
-    name: branch/$CI_COMMIT_REF_SLUG
-    action: stop
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
-      when: manual
-  variables:
-    WEBSITE_UPLOAD_PATH: /branch_${CI_COMMIT_REF_SLUG}
-  allow_failure: true
+    - main
 ```
+
+
+You must set the `HOST` - this is a fix for a [known issue](https://github.com/jupyter-book/mystmd/issues/2471).
+
+Note that a [pixi.toml](https://pixi.prefix.dev/latest/python/pyproject_toml/) and pixi.lock file should be included!
+
+A minimal version is shown below.
+
+```{code-block} toml
+:filename: pixi.toml
+
+[workspace]
+authors = [{name = "Me", email = "me@me.com"}]
+channels = ["conda-forge"]
+name = "jbtest"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.3,<3.15"
+jupyter-book = ">=2.1.2,<3"
+```
+

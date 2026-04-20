@@ -1,5 +1,5 @@
 ---
-title: Hosting with TU Delft webserver 🌶
+title: Hosting on a webserver🌶
 short_title: TUD server 🌶
 # subtitle: Using the GitHub Integrated Development Environment to write and edit content
 authors:
@@ -116,3 +116,59 @@ sudo systemctl reload apache2
 | `sudo -s` | open a root shell |
 | `cat` | concatenate and display file content |
 | `reboot` | reboot the server |
+
+To host your website on a university webserver you'll need:
+
+- a gitlab repo with CI/CD script (below)
+- a (linux) webserver
+- a runner
+- an SSH key 
+
+How to set up a 
+ 
+```{code} yml 
+:filename: .gitlab-ci.yml
+:label: ci-for-gitlab-tudserver
+
+:caption: .gitlab-ci.yml for TU server deployment
+
+stages:
+  - deploy
+
+image: python:3.11-slim
+
+variables:
+  SSH_COMMAND: 'ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -o IdentitiesOnly=yes'
+  LOCAL_BUILD_DIR: "_build/html"
+  HOST: "127.0.0.1"             # prevents running local host resulting in an error
+  BASE_URL: ""                  # specify the base url, e.g. the folder from root
+  
+before_script:
+  - apt-get update
+  - apt-get install -y --no-install-recommends curl rsync openssh-client git
+
+  # Node.js
+  - curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+  - apt-get install -y --no-install-recommends nodejs
+  - node --version
+  - npm --version
+
+  # Python deps
+  - python -m pip install --upgrade pip
+  - pip install mystmd
+  - pip install -r requirements.txt
+
+  # SSH key laden
+  - eval "$(ssh-agent -s)"
+  - chmod 400 "$WEBSITE_UPLOAD_KEY"
+  - ssh-add "$WEBSITE_UPLOAD_KEY"
+
+deploy:
+  stage: deploy
+  script:
+    # builds the book
+    - myst build --html 
+    
+    # syncs with the server
+    - rsync -ravz "${LOCAL_BUILD_DIR}/" -e "${SSH_COMMAND} -i ${WEBSITE_UPLOAD_KEY}" "${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}/"
+```

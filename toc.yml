@@ -3,8 +3,8 @@ project:
   id: aaa93d8b-b87b-406a-9a35-bce45f124075
 
   toc: 
-    # - file: index.md
-    - file: content/1_general/1_intro.md    
+    - file: index.md
+    # - file: content/1_general/1_intro.md    
     - file: content/1_general/1_intro.md    
       children:
       - file: content/1_general/2_about.md
@@ -12,10 +12,9 @@ project:
       - file: content/1_general/4_writing.md
         children:
         - file: content/1_general/4_local.md
-        - file: content/1_general/4_githubIDE.md        
+        - file: content/1_general/4_gitIDE.md        
         - file: content/1_general/4_overleaf.md
-        - file: content/1_general/4_juplab.md
-        - file: content/1_general/4_gitlab.md
+        - file: content/1_general/4_juplab.md        
         - file: content/1_general/4_wysiwyg.md
       - file: content/1_general/5_publishing.md
         children:
@@ -47,10 +46,10 @@ project:
       - file: content/3_science/7_publishingdata.md
       - file: content/3_science/11_agreement.md
 
-    - title: Educational publishing
-    - file: content/4_education/1_intro.md
-      children:       
-      - file: content/4_education/2_workflow.md
+    # - title: Educational publishing
+    # - file: content/4_education/1_intro.md
+    #   children:       
+    #   - file: content/4_education/2_workflow.md
     
     - file: content/gallery.md
     - file: content/blog.md
