@@ -43,6 +43,7 @@ project:
         children:
         - file: content/3_science/3a_latex.md
         - file: content/3_science/3b_typst.md
+        - file: content/3_science/3c_other.md
       - file: content/3_science/7_publishingdata.md
       - file: content/3_science/11_agreement.md
 

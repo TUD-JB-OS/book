@@ -1,5 +1,5 @@
 ---
-title: LaTeX
+title: LaTeX Thesis Template
 # short_title: 
 # subtitle: Using Overleaf and GitHub to publish the web-based version of a project
 authors:
@@ -7,17 +7,15 @@ authors:
     - id: LuukFroling
 
 --- 
-> In this section...
+> In this section we briefly outline the export to pdf using LaTeX. A more elaborate description is provided [here](https://jboss.tudelft.nl/templates).
+
+For the starter kit we created a [LaTeX template](https://github.com/TUD-JB-OS/latex_template), an _export_latex.yml file_ in which you can set the main settings and a separate _github action_ that will build the pdf and include it on the website. It needs a manual trigger as installing the LaTeX packages takes time and is therefore not always desired in the build process of your project.
+
+PLACEHOLDER FIGURE OF TEMPLATE
 
 
-NOTIFY THAT AUTOMATIC PDF IS NOT AUTOMATIC BUT MUST BE TRIGGERED MANUALLY.
-
-
-## Bachelor and Master Theses
-
-A [TUD LaTeX template](https://github.com/TUD-JB-OS/latex_template) can be used to convert your theses markdown files into a PDF format. The template provides a ready-made structure, customisable settings, and optional elements like a cover image or logo. 
-
-The template can be used by adding the template to the export section in the `myst.yml`: 
+## Use this template
+To use this template, a minimalistic version of an export
 
 ```{code} yaml
 
@@ -27,18 +25,10 @@ downloads:
 exports:
     - format: pdf 
         output: exports/output_file.pdf
-        template: { - TODO: replace with published link - }
+        template: https://github.com/TUD-JB-OS/latex_template.git
         id: output-pdf
+
 ```
-
-After adding the template, you can build a PDF file using the `--pdf` flag: 
-
-``` 
-jupyter book build --pdf
-```
-
-Additional options can be used to customise the output. A full example of an `export.yml` file can be found [here](https://github.com/TUD-JB-OS/latex_template/blob/main/example/export.yml).
-
 
 :::{dropdown} Configuration options
 :closed:
@@ -59,10 +49,19 @@ An example `export.yml` file can be found [here](https://github.com/TUD-JB-OS/la
 | **papersize** | string | `a4paper` | Paper size to be used. See the [reference guide](https://www.overleaf.com/learn/latex/Page_size_and_margins#Reference_guide) for available sizes.  | 
 | **show_pagenumbers** | string | `arabic` | Whether to show page numbers in the footer. Page numbers can be turned off by setting show_pagenumbers to `gobble`. | 
 | **extra_information** | string | `\u00A0` | Extra information to be placed on the title page (e.g. "Version 2.0, Draft, university, course"). Default is a space character. | 
-
-
-
 :::
+
+
+
+After adding the template, you can build a PDF file using the `--pdf` flag: 
+
+``` 
+jupyter book build --pdf
+```
+
+Additional options can be used to customise the output. A full example of an `export.yml` file can be found [here](https://github.com/TUD-JB-OS/latex_template/blob/main/example/export.yml).
+
+
 
 ## Scientific Publications
 

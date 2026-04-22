@@ -23,6 +23,7 @@ a comprehensive resource for educators, researchers, and students
 
 ![](style/cover3.png)
 
+
 +++
 
 The TU Delft guide to open publishing with JupyterBook is a comprehensive resource for educators, researchers, and students interested in using the JupyterBook for creating and sharing scientific and educational content. This guide provides step-by-step instructions, best practices, and practical examples to help users with the process of building and publishing their own JupyterBook. We focus especially on the production of bachelor and master thesis, as well as open education resources.

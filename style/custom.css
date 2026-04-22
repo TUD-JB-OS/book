@@ -89,3 +89,11 @@ body {
     font-weight: bold;
   }
 }
+
+
+.myst-landing-split-img-image img {
+  height: 100%;
+  width: auto;
+  object-fit: contain !important;
+  display: block;
+}
