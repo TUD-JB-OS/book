@@ -155,6 +155,12 @@ The cover page of the pdf version.
 Converting the website landing page to a pdf cover page
 ```` 
 
+(openscience)=
+## Open Science
+Open science. .. 
+- transparancy
+- share
+- ...
 
 (whattoconsider)=
 ## What to consider
