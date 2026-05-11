@@ -63,6 +63,5 @@ Additional options can be used to customise the output. A full example of an `ex
 
 
 
-## Scientific Publications
 
 -

@@ -3,6 +3,10 @@ title: Blog
 
 author: null
 ---
+**11-05-2026** Two wonderful plugins are released lately. The [Pyodide plugin](https://github.com/jupyter-book/myst-plugins/tree/main/plugins/pyodide-editable) allows you to run and edit python code in the browser (client side) without installing anything. The [lightbox plugin](https://github.com/choldgraf/myst-lightbox) allows to zoom in on images in your project and display them in a gallery!
+
+**07-05-2026** Great news! We were granted the NWO Open Science Meeting fund for hosting a free meeting in Delft. On the 4th of November we will organize an event in Delft with the goal to strengthen the adoption of JupyterBook as a key infrastructure for open science and open education. We aim to enable participants to use Jupyter Book through hands-on experience, while building a shared understanding of its capabilities and potential applications in research.
+
 **10-04-2026** We have made the server ready for webhosting. In the following days we will work on migrating the materials to the server.
 
 **27-03-2026** We have made some progress. One of the major things done is get access to a TU Delft virtual server using the url https://jboss.tudelft.nl. We will move our main page to there to comply to FAIR principles and to make it more accessible for everyone. 
