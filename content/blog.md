@@ -3,6 +3,8 @@ title: Blog
 
 author: null
 ---
+**20-05-2026**  It feels like we have got some traction. The first emails are dripping in from students who want to use our workflow and template! It is great to see such enthusiasm already in such an early state.
+
 **11-05-2026** Two wonderful plugins are released lately. The [Pyodide plugin](https://github.com/jupyter-book/myst-plugins/tree/main/plugins/pyodide-editable) allows you to run and edit python code in the browser (client side) without installing anything. The [lightbox plugin](https://github.com/choldgraf/myst-lightbox) allows to zoom in on images in your project and display them in a gallery!
 
 **07-05-2026** Great news! We were granted the NWO Open Science Meeting fund for hosting a free meeting in Delft. On the 4th of November we will organize an event in Delft with the goal to strengthen the adoption of JupyterBook as a key infrastructure for open science and open education. We aim to enable participants to use Jupyter Book through hands-on experience, while building a shared understanding of its capabilities and potential applications in research.
