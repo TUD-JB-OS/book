@@ -43,7 +43,7 @@ Everything that is in `home/web/` will be visible on the webserver (after [takin
 
 Two keys are generated: `id_rsa` (private key) and `id_rsa.pub` (public key). The public key needs to be copied to an authorized_keys file.
 
-11. Run `cp id_rsa.pub authorized_keys` to do this. You will need the private key later to connect GitHub/GitLab and the server. 
+11. Run `cp id_rsa.pub authorized_keys` to do this. You will need the private key (`cat id_rsa`) later to connect GitHub/GitLab and the server. 
 
 We are now ready with setting up the server, but need to secure it.
 
